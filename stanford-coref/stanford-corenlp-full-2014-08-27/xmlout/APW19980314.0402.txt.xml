@@ -1,0 +1,4963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>OSLO</word>
+            <lemma>OSLO</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Norway</word>
+            <lemma>Norway</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>AP</word>
+            <lemma>AP</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>_</word>
+            <lemma>_</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Russia</word>
+            <lemma>Russia</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Alexey</word>
+            <lemma>Alexey</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Prokurorov</word>
+            <lemma>Prokurorov</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>no</word>
+            <lemma>no</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>real</word>
+            <lemma>real</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>challengers</word>
+            <lemma>challenger</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>won</word>
+            <lemma>win</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>50-kilometer</word>
+            <lemma>50-kilometer</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>classical-style</word>
+            <lemma>classical-style</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>cross</word>
+            <lemma>cross</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>country</word>
+            <lemma>country</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>World</word>
+            <lemma>World</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>Cup</word>
+            <lemma>Cup</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>race</word>
+            <lemma>race</lemma>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>Holmenkollen</word>
+            <lemma>Holmenkollen</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>Saturday</word>
+            <lemma>Saturday</lemma>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-WXX-6</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-WXX-6</Timex>
+          </token>
+          <token id="30">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>clocking</word>
+            <lemma>clock</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>2</word>
+            <lemma>2</lemma>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT2H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT2H</Timex>
+          </token>
+          <token id="33">
+            <word>hours</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT2H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT2H</Timex>
+          </token>
+          <token id="34">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="35">
+            <word>32</word>
+            <lemma>32</lemma>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT32M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DURATION">PT32M</Timex>
+          </token>
+          <token id="36">
+            <word>minutes</word>
+            <lemma>minute</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT32M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DURATION">PT32M</Timex>
+          </token>
+          <token id="37">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="38">
+            <word>25.3</word>
+            <lemma>25.3</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>203</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT25S</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t4" type="DURATION">PT25S</Timex>
+          </token>
+          <token id="39">
+            <word>seconds</word>
+            <lemma>seconds</lemma>
+            <CharacterOffsetBegin>204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT25S</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t4" type="DURATION">PT25S</Timex>
+          </token>
+          <token id="40">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP OSLO) (, ,) (NNP Norway)) (PRN (-LRB- -LRB-) (NP (NNP AP)) (-RRB- -RRB-))) (NP (NP (CD _)) (SBAR (S (NP (NP (NNP Russia) (POS 's)) (NNP Alexey) (NNP Prokurorov)) (VP (VBD had) (NP (DT no) (JJ real) (NNS challengers)) (SBAR (IN as) (S (NP (PRP he)) (VP (VBD won) (NP (NP (DT the) (JJ 50-kilometer) (NN classical-style) (NN cross) (NN country) (NNP World) (NNP Cup) (NN race)) (PP (IN in) (NP (NNP Holmenkollen) (NNP Saturday)))) (, ,) (S (VP (VBG clocking) (NP (NP (CD 2) (NNS hours)) (, ,) (NP (NP (CD 32) (NNS minutes)) (, ,) (NP (CD 25.3) (NNS seconds))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Norway</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Norway</governor>
+            <dependent idx="1">OSLO</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Norway</governor>
+            <dependent idx="5">AP</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Norway</governor>
+            <dependent idx="7">_</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">Prokurorov</governor>
+            <dependent idx="8">Russia</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="8">Russia</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Prokurorov</governor>
+            <dependent idx="10">Alexey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">had</governor>
+            <dependent idx="11">Prokurorov</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">_</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">challengers</governor>
+            <dependent idx="13">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">challengers</governor>
+            <dependent idx="14">real</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">had</governor>
+            <dependent idx="15">challengers</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">won</governor>
+            <dependent idx="16">as</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">won</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">had</governor>
+            <dependent idx="18">won</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">race</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">race</governor>
+            <dependent idx="20">50-kilometer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="21">classical-style</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="22">cross</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="23">country</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="24">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="25">Cup</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">won</governor>
+            <dependent idx="26">race</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">race</governor>
+            <dependent idx="27">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="29">Saturday</governor>
+            <dependent idx="28">Holmenkollen</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="27">in</governor>
+            <dependent idx="29">Saturday</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">won</governor>
+            <dependent idx="31">clocking</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="33">hours</governor>
+            <dependent idx="32">2</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="31">clocking</governor>
+            <dependent idx="33">hours</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="36">minutes</governor>
+            <dependent idx="35">32</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="33">hours</governor>
+            <dependent idx="36">minutes</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="39">seconds</governor>
+            <dependent idx="38">25.3</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="36">minutes</governor>
+            <dependent idx="39">seconds</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Norway</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Norway</governor>
+            <dependent idx="1">OSLO</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Norway</governor>
+            <dependent idx="5">AP</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Norway</governor>
+            <dependent idx="7">_</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">Prokurorov</governor>
+            <dependent idx="8">Russia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Prokurorov</governor>
+            <dependent idx="10">Alexey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">had</governor>
+            <dependent idx="11">Prokurorov</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">_</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">challengers</governor>
+            <dependent idx="13">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">challengers</governor>
+            <dependent idx="14">real</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">had</governor>
+            <dependent idx="15">challengers</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">won</governor>
+            <dependent idx="16">as</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">won</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">had</governor>
+            <dependent idx="18">won</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">race</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">race</governor>
+            <dependent idx="20">50-kilometer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="21">classical-style</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="22">cross</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="23">country</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="24">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="25">Cup</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">won</governor>
+            <dependent idx="26">race</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="29">Saturday</governor>
+            <dependent idx="28">Holmenkollen</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="26">race</governor>
+            <dependent idx="29">Saturday</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">won</governor>
+            <dependent idx="31">clocking</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="33">hours</governor>
+            <dependent idx="32">2</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="31">clocking</governor>
+            <dependent idx="33">hours</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="36">minutes</governor>
+            <dependent idx="35">32</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="33">hours</governor>
+            <dependent idx="36">minutes</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="39">seconds</governor>
+            <dependent idx="38">25.3</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="36">minutes</governor>
+            <dependent idx="39">seconds</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Norway</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Norway</governor>
+            <dependent idx="1">OSLO</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Norway</governor>
+            <dependent idx="5">AP</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Norway</governor>
+            <dependent idx="7">_</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">Prokurorov</governor>
+            <dependent idx="8">Russia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Prokurorov</governor>
+            <dependent idx="10">Alexey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">had</governor>
+            <dependent idx="11">Prokurorov</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">_</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">challengers</governor>
+            <dependent idx="13">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">challengers</governor>
+            <dependent idx="14">real</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">had</governor>
+            <dependent idx="15">challengers</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">won</governor>
+            <dependent idx="16">as</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">won</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">had</governor>
+            <dependent idx="18">won</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">race</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">race</governor>
+            <dependent idx="20">50-kilometer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="21">classical-style</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="22">cross</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="23">country</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="24">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">race</governor>
+            <dependent idx="25">Cup</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">won</governor>
+            <dependent idx="26">race</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="29">Saturday</governor>
+            <dependent idx="28">Holmenkollen</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="26">race</governor>
+            <dependent idx="29">Saturday</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">won</governor>
+            <dependent idx="31">clocking</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="33">hours</governor>
+            <dependent idx="32">2</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="31">clocking</governor>
+            <dependent idx="33">hours</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="36">minutes</governor>
+            <dependent idx="35">32</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="33">hours</governor>
+            <dependent idx="36">minutes</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="39">seconds</governor>
+            <dependent idx="38">25.3</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="36">minutes</governor>
+            <dependent idx="39">seconds</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Four</word>
+            <lemma>four</lemma>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>217</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Norwegians</word>
+            <lemma>Norwegians</lemma>
+            <CharacterOffsetBegin>218</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>chased</word>
+            <lemma>chase</lemma>
+            <CharacterOffsetBegin>229</CharacterOffsetBegin>
+            <CharacterOffsetEnd>235</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>behind</word>
+            <lemma>behind</lemma>
+            <CharacterOffsetBegin>236</CharacterOffsetBegin>
+            <CharacterOffsetEnd>242</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>242</CharacterOffsetBegin>
+            <CharacterOffsetEnd>243</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>244</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Odd</word>
+            <lemma>Odd</lemma>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>251</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Bjorn</word>
+            <lemma>Bjorn</lemma>
+            <CharacterOffsetBegin>252</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Hjelmeseth</word>
+            <lemma>Hjelmeseth</lemma>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>268</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>269</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Bjorn</word>
+            <lemma>Bjorn</lemma>
+            <CharacterOffsetBegin>270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>275</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Dahlie</word>
+            <lemma>Dahlie</lemma>
+            <CharacterOffsetBegin>276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>282</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>282</CharacterOffsetBegin>
+            <CharacterOffsetEnd>283</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Anders</word>
+            <lemma>Anders</lemma>
+            <CharacterOffsetBegin>284</CharacterOffsetBegin>
+            <CharacterOffsetEnd>290</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Aukland</word>
+            <lemma>Aukland</lemma>
+            <CharacterOffsetBegin>291</CharacterOffsetBegin>
+            <CharacterOffsetEnd>298</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>299</CharacterOffsetBegin>
+            <CharacterOffsetEnd>302</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Erling</word>
+            <lemma>Erling</lemma>
+            <CharacterOffsetBegin>303</CharacterOffsetBegin>
+            <CharacterOffsetEnd>309</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>Jevne</word>
+            <lemma>Jevne</lemma>
+            <CharacterOffsetBegin>310</CharacterOffsetBegin>
+            <CharacterOffsetEnd>315</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>316</CharacterOffsetBegin>
+            <CharacterOffsetEnd>319</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>320</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>settle</word>
+            <lemma>settle</lemma>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>329</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>330</CharacterOffsetBegin>
+            <CharacterOffsetEnd>334</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>second</word>
+            <lemma>second</lemma>
+            <CharacterOffsetBegin>335</CharacterOffsetBegin>
+            <CharacterOffsetEnd>341</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>342</CharacterOffsetBegin>
+            <CharacterOffsetEnd>344</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>fifth</word>
+            <lemma>fifth</lemma>
+            <CharacterOffsetBegin>345</CharacterOffsetBegin>
+            <CharacterOffsetEnd>350</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>5.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>places</word>
+            <lemma>place</lemma>
+            <CharacterOffsetBegin>351</CharacterOffsetBegin>
+            <CharacterOffsetEnd>357</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>357</CharacterOffsetBegin>
+            <CharacterOffsetEnd>358</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (CD Four) (NNPS Norwegians)) (VP (VBD chased) (ADVP (RB behind)))) (, ,) (CC but) (S (NP (NP (NNP Odd) (NNP Bjorn) (NNP Hjelmeseth)) (, ,) (NP (NNP Bjorn) (NNP Dahlie)) (, ,) (NP (NNP Anders) (NNP Aukland)) (CC and) (NP (NNP Erling) (NNP Jevne))) (VP (VBD had) (S (VP (TO to) (VP (VB settle) (PP (IN with) (NP (ADJP (JJ second) (TO to) (JJ fifth)) (NNS places)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">chased</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">Norwegians</governor>
+            <dependent idx="1">Four</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">chased</governor>
+            <dependent idx="2">Norwegians</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">chased</governor>
+            <dependent idx="4">behind</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">chased</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="7">Odd</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="8">Bjorn</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="9">Hjelmeseth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Dahlie</governor>
+            <dependent idx="11">Bjorn</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="12">Dahlie</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Aukland</governor>
+            <dependent idx="14">Anders</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="15">Aukland</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Jevne</governor>
+            <dependent idx="17">Erling</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="18">Jevne</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">chased</governor>
+            <dependent idx="19">had</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="21">settle</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">had</governor>
+            <dependent idx="21">settle</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">settle</governor>
+            <dependent idx="22">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">fifth</governor>
+            <dependent idx="23">second</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="25">fifth</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">places</governor>
+            <dependent idx="25">fifth</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">with</governor>
+            <dependent idx="26">places</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">chased</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">Norwegians</governor>
+            <dependent idx="1">Four</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">chased</governor>
+            <dependent idx="2">Norwegians</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">chased</governor>
+            <dependent idx="4">behind</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="7">Odd</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="8">Bjorn</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="9">Hjelmeseth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Dahlie</governor>
+            <dependent idx="11">Bjorn</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="12">Dahlie</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Aukland</governor>
+            <dependent idx="14">Anders</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="15">Aukland</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Jevne</governor>
+            <dependent idx="17">Erling</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="18">Jevne</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="3">chased</governor>
+            <dependent idx="19">had</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="21">settle</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">had</governor>
+            <dependent idx="21">settle</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">fifth</governor>
+            <dependent idx="23">second</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="25">fifth</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">places</governor>
+            <dependent idx="25">fifth</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="21">settle</governor>
+            <dependent idx="26">places</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">chased</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">Norwegians</governor>
+            <dependent idx="1">Four</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">chased</governor>
+            <dependent idx="2">Norwegians</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">chased</governor>
+            <dependent idx="4">behind</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="7">Odd</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="8">Bjorn</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="9">Hjelmeseth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Dahlie</governor>
+            <dependent idx="11">Bjorn</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="12">Dahlie</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="12">Dahlie</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Aukland</governor>
+            <dependent idx="14">Anders</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="15">Aukland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="15">Aukland</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Jevne</governor>
+            <dependent idx="17">Erling</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Hjelmeseth</governor>
+            <dependent idx="18">Jevne</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="18">Jevne</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="3">chased</governor>
+            <dependent idx="19">had</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="21">settle</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">had</governor>
+            <dependent idx="21">settle</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">fifth</governor>
+            <dependent idx="23">second</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="25">fifth</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">places</governor>
+            <dependent idx="25">fifth</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="21">settle</governor>
+            <dependent idx="26">places</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Prokurorov</word>
+            <lemma>Prokurorov</lemma>
+            <CharacterOffsetBegin>359</CharacterOffsetBegin>
+            <CharacterOffsetEnd>369</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>370</CharacterOffsetBegin>
+            <CharacterOffsetEnd>373</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>1:18.9</word>
+            <lemma>1:18.9</lemma>
+            <CharacterOffsetBegin>374</CharacterOffsetBegin>
+            <CharacterOffsetEnd>380</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T01:18</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t5" type="TIME">T01:18</Timex>
+          </token>
+          <token id="4">
+            <word>ahead</word>
+            <lemma>ahead</lemma>
+            <CharacterOffsetBegin>381</CharacterOffsetBegin>
+            <CharacterOffsetEnd>386</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>387</CharacterOffsetBegin>
+            <CharacterOffsetEnd>389</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Hjelmeseth</word>
+            <lemma>hjelmeseth</lemma>
+            <CharacterOffsetBegin>390</CharacterOffsetBegin>
+            <CharacterOffsetEnd>400</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>400</CharacterOffsetBegin>
+            <CharacterOffsetEnd>401</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Prokurorov)) (VP (VBD was) (ADVP (NP (CD 1:18.9)) (RB ahead)) (PP (IN of) (NP (NN Hjelmeseth)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">was</governor>
+            <dependent idx="1">Prokurorov</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="4">ahead</governor>
+            <dependent idx="3">1:18.9</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">was</governor>
+            <dependent idx="4">ahead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">was</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">of</governor>
+            <dependent idx="6">Hjelmeseth</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">was</governor>
+            <dependent idx="1">Prokurorov</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="2">was</governor>
+            <dependent idx="3">1:18.9</dependent>
+          </dep>
+          <dep type="prep_ahead_of">
+            <governor idx="2">was</governor>
+            <dependent idx="6">Hjelmeseth</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">was</governor>
+            <dependent idx="1">Prokurorov</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="2">was</governor>
+            <dependent idx="3">1:18.9</dependent>
+          </dep>
+          <dep type="prep_ahead_of">
+            <governor idx="2">was</governor>
+            <dependent idx="6">Hjelmeseth</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>Thomas</word>
+            <lemma>Thomas</lemma>
+            <CharacterOffsetBegin>402</CharacterOffsetBegin>
+            <CharacterOffsetEnd>408</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Alsgaard</word>
+            <lemma>Alsgaard</lemma>
+            <CharacterOffsetBegin>409</CharacterOffsetBegin>
+            <CharacterOffsetEnd>417</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>418</CharacterOffsetBegin>
+            <CharacterOffsetEnd>420</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Norway</word>
+            <lemma>Norway</lemma>
+            <CharacterOffsetBegin>421</CharacterOffsetBegin>
+            <CharacterOffsetEnd>427</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>clinched</word>
+            <lemma>clinch</lemma>
+            <CharacterOffsetBegin>428</CharacterOffsetBegin>
+            <CharacterOffsetEnd>436</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>437</CharacterOffsetBegin>
+            <CharacterOffsetEnd>440</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>World</word>
+            <lemma>World</lemma>
+            <CharacterOffsetBegin>441</CharacterOffsetBegin>
+            <CharacterOffsetEnd>446</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Cup</word>
+            <lemma>Cup</lemma>
+            <CharacterOffsetBegin>447</CharacterOffsetBegin>
+            <CharacterOffsetEnd>450</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Wednesday</word>
+            <lemma>Wednesday</lemma>
+            <CharacterOffsetBegin>451</CharacterOffsetBegin>
+            <CharacterOffsetEnd>460</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-WXX-3</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t6" type="DATE">XXXX-WXX-3</Timex>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>461</CharacterOffsetBegin>
+            <CharacterOffsetEnd>463</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Sweden</word>
+            <lemma>Sweden</lemma>
+            <CharacterOffsetBegin>464</CharacterOffsetBegin>
+            <CharacterOffsetEnd>470</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>471</CharacterOffsetBegin>
+            <CharacterOffsetEnd>474</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>475</CharacterOffsetBegin>
+            <CharacterOffsetEnd>477</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>478</CharacterOffsetBegin>
+            <CharacterOffsetEnd>481</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>nothing</word>
+            <lemma>nothing</lemma>
+            <CharacterOffsetBegin>482</CharacterOffsetBegin>
+            <CharacterOffsetEnd>489</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>490</CharacterOffsetBegin>
+            <CharacterOffsetEnd>492</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>go</word>
+            <lemma>go</lemma>
+            <CharacterOffsetBegin>493</CharacterOffsetBegin>
+            <CharacterOffsetEnd>495</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>496</CharacterOffsetBegin>
+            <CharacterOffsetEnd>499</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>500</CharacterOffsetBegin>
+            <CharacterOffsetEnd>502</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>503</CharacterOffsetBegin>
+            <CharacterOffsetEnd>506</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>50K</word>
+            <lemma>50k</lemma>
+            <CharacterOffsetBegin>507</CharacterOffsetBegin>
+            <CharacterOffsetEnd>510</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>50.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>510</CharacterOffsetBegin>
+            <CharacterOffsetEnd>511</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>finishing</word>
+            <lemma>finish</lemma>
+            <CharacterOffsetBegin>512</CharacterOffsetBegin>
+            <CharacterOffsetEnd>521</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>20th</word>
+            <lemma>20th</lemma>
+            <CharacterOffsetBegin>522</CharacterOffsetBegin>
+            <CharacterOffsetEnd>526</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>20.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>526</CharacterOffsetBegin>
+            <CharacterOffsetEnd>527</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (NNP Thomas) (NNP Alsgaard)) (PP (IN of) (NP (NNP Norway)))) (VP (VBD clinched) (NP (NP (DT the) (NNP World) (NNP Cup) (NNP Wednesday)) (PP (IN in) (NP (NNP Sweden)))))) (CC and) (S (NP (PRP he)) (VP (VBD had) (NP (NN nothing) (S (VP (TO to) (VP (VB go) (PP (IN for) (PP (IN in) (NP (DT the) (CD 50K)))) (, ,) (S (VP (VBG finishing) (ADJP (JJ 20th)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clinched</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Alsgaard</governor>
+            <dependent idx="1">Thomas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="2">Alsgaard</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Alsgaard</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">Norway</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="7">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="8">Cup</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="9">Wednesday</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="11">Sweden</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">clinched</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">had</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="14">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">had</governor>
+            <dependent idx="15">nothing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">go</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">nothing</governor>
+            <dependent idx="17">go</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">go</governor>
+            <dependent idx="18">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="18">for</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">50K</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="21">50K</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="17">go</governor>
+            <dependent idx="23">finishing</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="23">finishing</governor>
+            <dependent idx="24">20th</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clinched</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Alsgaard</governor>
+            <dependent idx="1">Thomas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="2">Alsgaard</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Alsgaard</governor>
+            <dependent idx="4">Norway</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="7">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="8">Cup</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="9">Wednesday</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="11">Sweden</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">had</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">clinched</governor>
+            <dependent idx="14">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">had</governor>
+            <dependent idx="15">nothing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">go</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">nothing</governor>
+            <dependent idx="17">go</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">go</governor>
+            <dependent idx="18">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="18">for</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">50K</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="21">50K</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="17">go</governor>
+            <dependent idx="23">finishing</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="23">finishing</governor>
+            <dependent idx="24">20th</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clinched</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Alsgaard</governor>
+            <dependent idx="1">Thomas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="2">Alsgaard</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Alsgaard</governor>
+            <dependent idx="4">Norway</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="7">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="8">Cup</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">clinched</governor>
+            <dependent idx="9">Wednesday</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">Wednesday</governor>
+            <dependent idx="11">Sweden</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">had</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">clinched</governor>
+            <dependent idx="14">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">had</governor>
+            <dependent idx="15">nothing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">go</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">nothing</governor>
+            <dependent idx="17">go</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">go</governor>
+            <dependent idx="18">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="18">for</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">50K</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="21">50K</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="17">go</governor>
+            <dependent idx="23">finishing</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="23">finishing</governor>
+            <dependent idx="24">20th</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="5">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>528</CharacterOffsetBegin>
+            <CharacterOffsetEnd>530</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>531</CharacterOffsetBegin>
+            <CharacterOffsetEnd>534</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>801</word>
+            <lemma>801</lemma>
+            <CharacterOffsetBegin>535</CharacterOffsetBegin>
+            <CharacterOffsetEnd>538</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>801.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>points</word>
+            <lemma>point</lemma>
+            <CharacterOffsetBegin>539</CharacterOffsetBegin>
+            <CharacterOffsetEnd>545</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>546</CharacterOffsetBegin>
+            <CharacterOffsetEnd>548</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>549</CharacterOffsetBegin>
+            <CharacterOffsetEnd>552</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>final</word>
+            <lemma>final</lemma>
+            <CharacterOffsetBegin>553</CharacterOffsetBegin>
+            <CharacterOffsetEnd>558</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>overall</word>
+            <lemma>overall</lemma>
+            <CharacterOffsetBegin>559</CharacterOffsetBegin>
+            <CharacterOffsetEnd>566</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>standings</word>
+            <lemma>standing</lemma>
+            <CharacterOffsetBegin>567</CharacterOffsetBegin>
+            <CharacterOffsetEnd>576</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>576</CharacterOffsetBegin>
+            <CharacterOffsetEnd>577</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD had) (NP (NP (CD 801) (NNS points)) (PP (IN in) (NP (DT the) (JJ final) (JJ overall) (NNS standings))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">points</governor>
+            <dependent idx="3">801</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="4">points</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">points</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">standings</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">standings</governor>
+            <dependent idx="7">final</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">standings</governor>
+            <dependent idx="8">overall</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">in</governor>
+            <dependent idx="9">standings</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">points</governor>
+            <dependent idx="3">801</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="4">points</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">standings</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">standings</governor>
+            <dependent idx="7">final</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">standings</governor>
+            <dependent idx="8">overall</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="4">points</governor>
+            <dependent idx="9">standings</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">points</governor>
+            <dependent idx="3">801</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="4">points</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">standings</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">standings</governor>
+            <dependent idx="7">final</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">standings</governor>
+            <dependent idx="8">overall</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="4">points</governor>
+            <dependent idx="9">standings</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="6">
+        <tokens>
+          <token id="1">
+            <word>Dahlie</word>
+            <lemma>Dahlie</lemma>
+            <CharacterOffsetBegin>578</CharacterOffsetBegin>
+            <CharacterOffsetEnd>584</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>584</CharacterOffsetBegin>
+            <CharacterOffsetEnd>585</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>586</CharacterOffsetBegin>
+            <CharacterOffsetEnd>589</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>became</word>
+            <lemma>become</lemma>
+            <CharacterOffsetBegin>590</CharacterOffsetBegin>
+            <CharacterOffsetEnd>596</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>597</CharacterOffsetBegin>
+            <CharacterOffsetEnd>600</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>winningest</word>
+            <lemma>winningest</lemma>
+            <CharacterOffsetBegin>601</CharacterOffsetBegin>
+            <CharacterOffsetEnd>611</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Winter</word>
+            <lemma>Winter</lemma>
+            <CharacterOffsetBegin>612</CharacterOffsetBegin>
+            <CharacterOffsetEnd>618</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-WI</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t7" type="DATE">XXXX-WI</Timex>
+          </token>
+          <token id="8">
+            <word>Olympian</word>
+            <lemma>Olympian</lemma>
+            <CharacterOffsetBegin>619</CharacterOffsetBegin>
+            <CharacterOffsetEnd>627</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>628</CharacterOffsetBegin>
+            <CharacterOffsetEnd>630</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>history</word>
+            <lemma>history</lemma>
+            <CharacterOffsetBegin>631</CharacterOffsetBegin>
+            <CharacterOffsetEnd>638</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>639</CharacterOffsetBegin>
+            <CharacterOffsetEnd>641</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Nagano</word>
+            <lemma>Nagano</lemma>
+            <CharacterOffsetBegin>642</CharacterOffsetBegin>
+            <CharacterOffsetEnd>648</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>last</word>
+            <lemma>last</lemma>
+            <CharacterOffsetBegin>649</CharacterOffsetBegin>
+            <CharacterOffsetEnd>653</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1M OFFSET P-1M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t8" type="DATE"/>
+          </token>
+          <token id="14">
+            <word>month</word>
+            <lemma>month</lemma>
+            <CharacterOffsetBegin>654</CharacterOffsetBegin>
+            <CharacterOffsetEnd>659</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1M OFFSET P-1M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t8" type="DATE"/>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>659</CharacterOffsetBegin>
+            <CharacterOffsetEnd>660</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>finished</word>
+            <lemma>finish</lemma>
+            <CharacterOffsetBegin>661</CharacterOffsetBegin>
+            <CharacterOffsetEnd>669</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>second</word>
+            <lemma>second</lemma>
+            <CharacterOffsetBegin>670</CharacterOffsetBegin>
+            <CharacterOffsetEnd>676</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>677</CharacterOffsetBegin>
+            <CharacterOffsetEnd>681</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>678</word>
+            <lemma>678</lemma>
+            <CharacterOffsetBegin>682</CharacterOffsetBegin>
+            <CharacterOffsetEnd>685</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>678.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>points</word>
+            <lemma>point</lemma>
+            <CharacterOffsetBegin>686</CharacterOffsetBegin>
+            <CharacterOffsetEnd>692</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>692</CharacterOffsetBegin>
+            <CharacterOffsetEnd>693</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Dahlie)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD became) (NP (DT the) (JJ winningest) (NNP Winter) (NNP Olympian)) (PP (IN in) (NP (NN history))) (PP (IN at) (NP (NNP Nagano))) (NP-TMP (JJ last) (NN month))))) (, ,)) (VP (VBD finished) (ADVP (RB second) (PP (IN with) (NP (CD 678) (NNS points))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">finished</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">finished</governor>
+            <dependent idx="1">Dahlie</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">became</governor>
+            <dependent idx="3">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="1">Dahlie</governor>
+            <dependent idx="4">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="6">winningest</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="7">Winter</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">became</governor>
+            <dependent idx="8">Olympian</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">became</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">in</governor>
+            <dependent idx="10">history</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">became</governor>
+            <dependent idx="11">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">at</governor>
+            <dependent idx="12">Nagano</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">month</governor>
+            <dependent idx="13">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">became</governor>
+            <dependent idx="14">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">finished</governor>
+            <dependent idx="17">second</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">second</governor>
+            <dependent idx="18">with</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">points</governor>
+            <dependent idx="19">678</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">with</governor>
+            <dependent idx="20">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">finished</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">finished</governor>
+            <dependent idx="1">Dahlie</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">became</governor>
+            <dependent idx="3">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="1">Dahlie</governor>
+            <dependent idx="4">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="6">winningest</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="7">Winter</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">became</governor>
+            <dependent idx="8">Olympian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="4">became</governor>
+            <dependent idx="10">history</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="4">became</governor>
+            <dependent idx="12">Nagano</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">month</governor>
+            <dependent idx="13">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">became</governor>
+            <dependent idx="14">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">finished</governor>
+            <dependent idx="17">second</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">points</governor>
+            <dependent idx="19">678</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="17">second</governor>
+            <dependent idx="20">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">finished</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">finished</governor>
+            <dependent idx="1">Dahlie</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">became</governor>
+            <dependent idx="3">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="1">Dahlie</governor>
+            <dependent idx="4">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="6">winningest</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Olympian</governor>
+            <dependent idx="7">Winter</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">became</governor>
+            <dependent idx="8">Olympian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="4">became</governor>
+            <dependent idx="10">history</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="4">became</governor>
+            <dependent idx="12">Nagano</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">month</governor>
+            <dependent idx="13">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">became</governor>
+            <dependent idx="14">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">finished</governor>
+            <dependent idx="17">second</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">points</governor>
+            <dependent idx="19">678</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="17">second</governor>
+            <dependent idx="20">points</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="7">
+        <tokens>
+          <token id="1">
+            <word>No</word>
+            <lemma>no</lemma>
+            <CharacterOffsetBegin>694</CharacterOffsetBegin>
+            <CharacterOffsetEnd>696</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>other</word>
+            <lemma>other</lemma>
+            <CharacterOffsetBegin>697</CharacterOffsetBegin>
+            <CharacterOffsetEnd>702</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>skier</word>
+            <lemma>skier</lemma>
+            <CharacterOffsetBegin>703</CharacterOffsetBegin>
+            <CharacterOffsetEnd>708</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>709</CharacterOffsetBegin>
+            <CharacterOffsetEnd>712</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>713</CharacterOffsetBegin>
+            <CharacterOffsetEnd>717</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>World</word>
+            <lemma>world</lemma>
+            <CharacterOffsetBegin>718</CharacterOffsetBegin>
+            <CharacterOffsetEnd>723</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Cup</word>
+            <lemma>Cup</lemma>
+            <CharacterOffsetBegin>724</CharacterOffsetBegin>
+            <CharacterOffsetEnd>727</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>race</word>
+            <lemma>race</lemma>
+            <CharacterOffsetBegin>728</CharacterOffsetBegin>
+            <CharacterOffsetEnd>732</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>wins</word>
+            <lemma>win</lemma>
+            <CharacterOffsetBegin>733</CharacterOffsetBegin>
+            <CharacterOffsetEnd>737</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>738</CharacterOffsetBegin>
+            <CharacterOffsetEnd>742</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Dahlie</word>
+            <lemma>Dahlie</lemma>
+            <CharacterOffsetBegin>743</CharacterOffsetBegin>
+            <CharacterOffsetEnd>749</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>749</CharacterOffsetBegin>
+            <CharacterOffsetEnd>750</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>751</CharacterOffsetBegin>
+            <CharacterOffsetEnd>752</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>five-time</word>
+            <lemma>five-time</lemma>
+            <CharacterOffsetBegin>753</CharacterOffsetBegin>
+            <CharacterOffsetEnd>762</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>overall</word>
+            <lemma>overall</lemma>
+            <CharacterOffsetBegin>763</CharacterOffsetBegin>
+            <CharacterOffsetEnd>770</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>champion</word>
+            <lemma>champion</lemma>
+            <CharacterOffsetBegin>771</CharacterOffsetBegin>
+            <CharacterOffsetEnd>779</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>779</CharacterOffsetBegin>
+            <CharacterOffsetEnd>780</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT No) (JJ other) (NN skier)) (VP (VBZ has) (NP (NP (JJR more) (NN World)) (SBAR (S (NP (NNP Cup) (NN race)) (VP (VBZ wins) (PP (IN than) (NP (NP (NNP Dahlie)) (, ,) (NP (DT a) (JJ five-time) (JJ overall) (NN champion))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="3">skier</governor>
+            <dependent idx="1">No</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">skier</governor>
+            <dependent idx="2">other</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">skier</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">World</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="6">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">race</governor>
+            <dependent idx="7">Cup</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wins</governor>
+            <dependent idx="8">race</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">World</governor>
+            <dependent idx="9">wins</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">wins</governor>
+            <dependent idx="10">than</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">than</governor>
+            <dependent idx="11">Dahlie</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">champion</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">champion</governor>
+            <dependent idx="14">five-time</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">champion</governor>
+            <dependent idx="15">overall</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Dahlie</governor>
+            <dependent idx="16">champion</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="3">skier</governor>
+            <dependent idx="1">No</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">skier</governor>
+            <dependent idx="2">other</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">skier</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">World</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="6">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">race</governor>
+            <dependent idx="7">Cup</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wins</governor>
+            <dependent idx="8">race</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">World</governor>
+            <dependent idx="9">wins</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="9">wins</governor>
+            <dependent idx="11">Dahlie</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">champion</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">champion</governor>
+            <dependent idx="14">five-time</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">champion</governor>
+            <dependent idx="15">overall</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Dahlie</governor>
+            <dependent idx="16">champion</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="3">skier</governor>
+            <dependent idx="1">No</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">skier</governor>
+            <dependent idx="2">other</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">skier</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">World</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="6">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">race</governor>
+            <dependent idx="7">Cup</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wins</governor>
+            <dependent idx="8">race</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">World</governor>
+            <dependent idx="9">wins</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="9">wins</governor>
+            <dependent idx="11">Dahlie</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">champion</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">champion</governor>
+            <dependent idx="14">five-time</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">champion</governor>
+            <dependent idx="15">overall</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Dahlie</governor>
+            <dependent idx="16">champion</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="8">
+        <tokens>
+          <token id="1">
+            <word>Russia</word>
+            <lemma>Russia</lemma>
+            <CharacterOffsetBegin>781</CharacterOffsetBegin>
+            <CharacterOffsetEnd>787</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>787</CharacterOffsetBegin>
+            <CharacterOffsetEnd>789</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Larissa</word>
+            <lemma>Larissa</lemma>
+            <CharacterOffsetBegin>790</CharacterOffsetBegin>
+            <CharacterOffsetEnd>797</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Lazutina</word>
+            <lemma>Lazutina</lemma>
+            <CharacterOffsetBegin>798</CharacterOffsetBegin>
+            <CharacterOffsetEnd>806</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>won</word>
+            <lemma>win</lemma>
+            <CharacterOffsetBegin>807</CharacterOffsetBegin>
+            <CharacterOffsetEnd>810</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>811</CharacterOffsetBegin>
+            <CharacterOffsetEnd>814</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>women</word>
+            <lemma>woman</lemma>
+            <CharacterOffsetBegin>815</CharacterOffsetBegin>
+            <CharacterOffsetEnd>820</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>820</CharacterOffsetBegin>
+            <CharacterOffsetEnd>822</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>overall</word>
+            <lemma>overall</lemma>
+            <CharacterOffsetBegin>823</CharacterOffsetBegin>
+            <CharacterOffsetEnd>830</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>title</word>
+            <lemma>title</lemma>
+            <CharacterOffsetBegin>831</CharacterOffsetBegin>
+            <CharacterOffsetEnd>836</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>comfortably</word>
+            <lemma>comfortably</lemma>
+            <CharacterOffsetBegin>837</CharacterOffsetBegin>
+            <CharacterOffsetEnd>848</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>when</word>
+            <lemma>when</lemma>
+            <CharacterOffsetBegin>849</CharacterOffsetBegin>
+            <CharacterOffsetEnd>853</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>854</CharacterOffsetBegin>
+            <CharacterOffsetEnd>857</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>defeated</word>
+            <lemma>defeat</lemma>
+            <CharacterOffsetBegin>858</CharacterOffsetBegin>
+            <CharacterOffsetEnd>866</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>teammate</word>
+            <lemma>teammate</lemma>
+            <CharacterOffsetBegin>867</CharacterOffsetBegin>
+            <CharacterOffsetEnd>875</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Svetlana</word>
+            <lemma>Svetlana</lemma>
+            <CharacterOffsetBegin>876</CharacterOffsetBegin>
+            <CharacterOffsetEnd>884</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Nageykina</word>
+            <lemma>Nageykina</lemma>
+            <CharacterOffsetBegin>885</CharacterOffsetBegin>
+            <CharacterOffsetEnd>894</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>895</CharacterOffsetBegin>
+            <CharacterOffsetEnd>897</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>2:23.9</word>
+            <lemma>2:23.9</lemma>
+            <CharacterOffsetBegin>898</CharacterOffsetBegin>
+            <CharacterOffsetEnd>904</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T02:23</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t10" type="TIME">T02:23</Timex>
+          </token>
+          <token id="20">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>905</CharacterOffsetBegin>
+            <CharacterOffsetEnd>907</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>908</CharacterOffsetBegin>
+            <CharacterOffsetEnd>911</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>30K</word>
+            <lemma>30k</lemma>
+            <CharacterOffsetBegin>912</CharacterOffsetBegin>
+            <CharacterOffsetEnd>915</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>classical-style</word>
+            <lemma>classical-style</lemma>
+            <CharacterOffsetBegin>916</CharacterOffsetBegin>
+            <CharacterOffsetEnd>931</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>race</word>
+            <lemma>race</lemma>
+            <CharacterOffsetBegin>932</CharacterOffsetBegin>
+            <CharacterOffsetEnd>936</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>936</CharacterOffsetBegin>
+            <CharacterOffsetEnd>937</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Russia) (POS 's)) (NNP Larissa) (NNP Lazutina)) (VP (VBD won) (NP (NP (DT the) (NNS women) (POS 's)) (JJ overall) (NN title)) (ADVP (RB comfortably)) (SBAR (WHADVP (WRB when)) (S (NP (PRP she)) (VP (VBD defeated) (NP (NN teammate) (NNP Svetlana) (NNP Nageykina)) (PP (IN by) (NP (CD 2:23.9))) (PP (IN in) (NP (DT the) (CD 30K) (JJ classical-style) (NN race))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">won</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">Lazutina</governor>
+            <dependent idx="1">Russia</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="1">Russia</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Lazutina</governor>
+            <dependent idx="3">Larissa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">won</governor>
+            <dependent idx="4">Lazutina</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">women</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">title</governor>
+            <dependent idx="7">women</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="7">women</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">title</governor>
+            <dependent idx="9">overall</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">won</governor>
+            <dependent idx="10">title</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">won</governor>
+            <dependent idx="11">comfortably</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">defeated</governor>
+            <dependent idx="12">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">defeated</governor>
+            <dependent idx="13">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">won</governor>
+            <dependent idx="14">defeated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Nageykina</governor>
+            <dependent idx="15">teammate</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Nageykina</governor>
+            <dependent idx="16">Svetlana</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">defeated</governor>
+            <dependent idx="17">Nageykina</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">defeated</governor>
+            <dependent idx="18">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">by</governor>
+            <dependent idx="19">2:23.9</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">defeated</governor>
+            <dependent idx="20">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">race</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">race</governor>
+            <dependent idx="22">30K</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">race</governor>
+            <dependent idx="23">classical-style</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">in</governor>
+            <dependent idx="24">race</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">won</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">Lazutina</governor>
+            <dependent idx="1">Russia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Lazutina</governor>
+            <dependent idx="3">Larissa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">won</governor>
+            <dependent idx="4">Lazutina</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">women</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">title</governor>
+            <dependent idx="7">women</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">title</governor>
+            <dependent idx="9">overall</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">won</governor>
+            <dependent idx="10">title</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">won</governor>
+            <dependent idx="11">comfortably</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">defeated</governor>
+            <dependent idx="12">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">defeated</governor>
+            <dependent idx="13">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">won</governor>
+            <dependent idx="14">defeated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Nageykina</governor>
+            <dependent idx="15">teammate</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Nageykina</governor>
+            <dependent idx="16">Svetlana</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">defeated</governor>
+            <dependent idx="17">Nageykina</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="14">defeated</governor>
+            <dependent idx="19">2:23.9</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">race</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">race</governor>
+            <dependent idx="22">30K</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">race</governor>
+            <dependent idx="23">classical-style</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">defeated</governor>
+            <dependent idx="24">race</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">won</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">Lazutina</governor>
+            <dependent idx="1">Russia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Lazutina</governor>
+            <dependent idx="3">Larissa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">won</governor>
+            <dependent idx="4">Lazutina</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">women</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">title</governor>
+            <dependent idx="7">women</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">title</governor>
+            <dependent idx="9">overall</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">won</governor>
+            <dependent idx="10">title</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">won</governor>
+            <dependent idx="11">comfortably</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">defeated</governor>
+            <dependent idx="12">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">defeated</governor>
+            <dependent idx="13">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">won</governor>
+            <dependent idx="14">defeated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Nageykina</governor>
+            <dependent idx="15">teammate</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Nageykina</governor>
+            <dependent idx="16">Svetlana</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">defeated</governor>
+            <dependent idx="17">Nageykina</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="14">defeated</governor>
+            <dependent idx="19">2:23.9</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">race</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">race</governor>
+            <dependent idx="22">30K</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">race</governor>
+            <dependent idx="23">classical-style</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">defeated</governor>
+            <dependent idx="24">race</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="9">
+        <tokens>
+          <token id="1">
+            <word>Lazutina</word>
+            <lemma>Lazutina</lemma>
+            <CharacterOffsetBegin>938</CharacterOffsetBegin>
+            <CharacterOffsetEnd>946</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>finished</word>
+            <lemma>finish</lemma>
+            <CharacterOffsetBegin>947</CharacterOffsetBegin>
+            <CharacterOffsetEnd>955</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>956</CharacterOffsetBegin>
+            <CharacterOffsetEnd>958</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>1:41.41.2</word>
+            <lemma>1:41.41.2</lemma>
+            <CharacterOffsetBegin>959</CharacterOffsetBegin>
+            <CharacterOffsetEnd>968</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T01:41</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t11" type="TIME">T01:41</Timex>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>968</CharacterOffsetBegin>
+            <CharacterOffsetEnd>969</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Lazutina)) (VP (VBD finished) (PP (IN in) (NP (CD 1:41.41.2)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">finished</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">finished</governor>
+            <dependent idx="1">Lazutina</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">finished</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">in</governor>
+            <dependent idx="4">1:41.41.2</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">finished</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">finished</governor>
+            <dependent idx="1">Lazutina</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">finished</governor>
+            <dependent idx="4">1:41.41.2</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">finished</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">finished</governor>
+            <dependent idx="1">Lazutina</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">finished</governor>
+            <dependent idx="4">1:41.41.2</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="10">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>970</CharacterOffsetBegin>
+            <CharacterOffsetEnd>973</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>topped</word>
+            <lemma>top</lemma>
+            <CharacterOffsetBegin>974</CharacterOffsetBegin>
+            <CharacterOffsetEnd>980</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>981</CharacterOffsetBegin>
+            <CharacterOffsetEnd>984</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>final</word>
+            <lemma>final</lemma>
+            <CharacterOffsetBegin>985</CharacterOffsetBegin>
+            <CharacterOffsetEnd>990</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>standings</word>
+            <lemma>standing</lemma>
+            <CharacterOffsetBegin>991</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1000</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>1001</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1005</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>773</word>
+            <lemma>773</lemma>
+            <CharacterOffsetBegin>1006</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1009</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>773.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>points</word>
+            <lemma>point</lemma>
+            <CharacterOffsetBegin>1010</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1016</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1016</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1017</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VBD topped) (NP (DT the) (JJ final) (NNS standings)) (PP (IN with) (NP (CD 773) (NNS points)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">topped</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">topped</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">standings</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">standings</governor>
+            <dependent idx="4">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">topped</governor>
+            <dependent idx="5">standings</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">topped</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">points</governor>
+            <dependent idx="7">773</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">with</governor>
+            <dependent idx="8">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">topped</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">topped</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">standings</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">standings</governor>
+            <dependent idx="4">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">topped</governor>
+            <dependent idx="5">standings</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">points</governor>
+            <dependent idx="7">773</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">topped</governor>
+            <dependent idx="8">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">topped</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">topped</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">standings</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">standings</governor>
+            <dependent idx="4">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">topped</governor>
+            <dependent idx="5">standings</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">points</governor>
+            <dependent idx="7">773</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">topped</governor>
+            <dependent idx="8">points</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="11">
+        <tokens>
+          <token id="1">
+            <word>Anita</word>
+            <lemma>Anita</lemma>
+            <CharacterOffsetBegin>1018</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1023</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Moen-Guidon</word>
+            <lemma>Moen-Guidon</lemma>
+            <CharacterOffsetBegin>1024</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1035</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1036</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1038</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Norway</word>
+            <lemma>Norway</lemma>
+            <CharacterOffsetBegin>1039</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1045</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>1046</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1049</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>third</word>
+            <lemma>third</lemma>
+            <CharacterOffsetBegin>1050</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1055</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1055</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1056</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>2:28.6</word>
+            <lemma>2:28.6</lemma>
+            <CharacterOffsetBegin>1057</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1063</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T02:28</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t12" type="TIME">T02:28</Timex>
+          </token>
+          <token id="9">
+            <word>behind</word>
+            <lemma>behind</lemma>
+            <CharacterOffsetBegin>1064</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1070</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Lazutina</word>
+            <lemma>Lazutina</lemma>
+            <CharacterOffsetBegin>1071</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1079</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1079</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1080</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>1081</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1084</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Russia</word>
+            <lemma>Russia</lemma>
+            <CharacterOffsetBegin>1085</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1091</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>1091</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1093</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Julia</word>
+            <lemma>Julia</lemma>
+            <CharacterOffsetBegin>1094</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1099</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Chepalova</word>
+            <lemma>Chepalova</lemma>
+            <CharacterOffsetBegin>1100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1109</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>fourth</word>
+            <lemma>fourth</lemma>
+            <CharacterOffsetBegin>1110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1116</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1117</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>2:53.5</word>
+            <lemma>2:53.5</lemma>
+            <CharacterOffsetBegin>1118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1124</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T02:53</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t13" type="TIME">T02:53</Timex>
+          </token>
+          <token id="20">
+            <word>behind</word>
+            <lemma>behind</lemma>
+            <CharacterOffsetBegin>1125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1131</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1132</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Anita) (NNP Moen-Guidon)) (PP (IN of) (NP (NNP Norway)))) (VP (VBD was) (NP (NP (NP (JJ third)) (, ,) (NP (NP (CD 2:28.6)) (PP (IN behind) (NP (NNP Lazutina)))) (, ,)) (CC and) (NP (NP (NNP Russia) (POS 's)) (NNP Julia) (NNP Chepalova)) (NP (JJ fourth))) (, ,) (ADVP (NP (CD 2:53.5)) (IN behind))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">third</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Moen-Guidon</governor>
+            <dependent idx="1">Anita</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">third</governor>
+            <dependent idx="2">Moen-Guidon</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Moen-Guidon</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">Norway</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">third</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">third</governor>
+            <dependent idx="8">2:28.6</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">2:28.6</governor>
+            <dependent idx="9">behind</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">behind</governor>
+            <dependent idx="10">Lazutina</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">third</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">Chepalova</governor>
+            <dependent idx="13">Russia</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="13">Russia</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Chepalova</governor>
+            <dependent idx="15">Julia</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">third</governor>
+            <dependent idx="16">Chepalova</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">third</governor>
+            <dependent idx="17">fourth</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="20">behind</governor>
+            <dependent idx="19">2:53.5</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">third</governor>
+            <dependent idx="20">behind</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">third</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Moen-Guidon</governor>
+            <dependent idx="1">Anita</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">third</governor>
+            <dependent idx="2">Moen-Guidon</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Moen-Guidon</governor>
+            <dependent idx="4">Norway</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">third</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">third</governor>
+            <dependent idx="8">2:28.6</dependent>
+          </dep>
+          <dep type="prep_behind">
+            <governor idx="8">2:28.6</governor>
+            <dependent idx="10">Lazutina</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">Chepalova</governor>
+            <dependent idx="13">Russia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Chepalova</governor>
+            <dependent idx="15">Julia</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">third</governor>
+            <dependent idx="16">Chepalova</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">third</governor>
+            <dependent idx="17">fourth</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="20">behind</governor>
+            <dependent idx="19">2:53.5</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">third</governor>
+            <dependent idx="20">behind</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">third</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Moen-Guidon</governor>
+            <dependent idx="1">Anita</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">third</governor>
+            <dependent idx="2">Moen-Guidon</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Moen-Guidon</governor>
+            <dependent idx="4">Norway</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">third</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">third</governor>
+            <dependent idx="8">2:28.6</dependent>
+          </dep>
+          <dep type="prep_behind">
+            <governor idx="8">2:28.6</governor>
+            <dependent idx="10">Lazutina</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">Chepalova</governor>
+            <dependent idx="13">Russia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Chepalova</governor>
+            <dependent idx="15">Julia</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">third</governor>
+            <dependent idx="16">Chepalova</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">third</governor>
+            <dependent idx="17">fourth</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="20">behind</governor>
+            <dependent idx="19">2:53.5</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">third</governor>
+            <dependent idx="20">behind</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="12">
+        <tokens>
+          <token id="1">
+            <word>Taking</word>
+            <lemma>take</lemma>
+            <CharacterOffsetBegin>1133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1139</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>1140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1141</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>fifth</word>
+            <lemma>fifth</lemma>
+            <CharacterOffsetBegin>1142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1147</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>5.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>1148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1150</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1154</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>30K</word>
+            <lemma>30K</lemma>
+            <CharacterOffsetBegin>1155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1158</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1159</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Bente</word>
+            <lemma>Bente</lemma>
+            <CharacterOffsetBegin>1160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1165</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Martinsen</word>
+            <lemma>Martinsen</lemma>
+            <CharacterOffsetBegin>1166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1175</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1176</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1178</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Norway</word>
+            <lemma>Norway</lemma>
+            <CharacterOffsetBegin>1179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1185</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>secured</word>
+            <lemma>secure</lemma>
+            <CharacterOffsetBegin>1186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1193</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>second</word>
+            <lemma>second</lemma>
+            <CharacterOffsetBegin>1194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1200</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>place</word>
+            <lemma>place</lemma>
+            <CharacterOffsetBegin>1201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1206</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>overall</word>
+            <lemma>overall</lemma>
+            <CharacterOffsetBegin>1207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1214</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>1215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1219</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>631</word>
+            <lemma>631</lemma>
+            <CharacterOffsetBegin>1220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1223</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>631.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>points</word>
+            <lemma>point</lemma>
+            <CharacterOffsetBegin>1224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1230</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1230</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1231</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBG Taking) (NP (DT a) (JJ fifth)) (PP (IN in) (NP (DT the) (NNP 30K))))) (, ,) (NP (NP (NNP Bente) (NNP Martinsen)) (PP (IN of) (NP (NNP Norway)))) (VP (VBN secured) (NP (JJ second) (NN place)) (PP (ADVP (RB overall)) (IN with) (NP (CD 631) (NNS points)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">secured</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">secured</governor>
+            <dependent idx="1">Taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">fifth</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Taking</governor>
+            <dependent idx="3">fifth</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Taking</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">30K</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="6">30K</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Martinsen</governor>
+            <dependent idx="8">Bente</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">secured</governor>
+            <dependent idx="9">Martinsen</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">Martinsen</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="11">Norway</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">place</governor>
+            <dependent idx="13">second</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">secured</governor>
+            <dependent idx="14">place</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">with</governor>
+            <dependent idx="15">overall</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">secured</governor>
+            <dependent idx="16">with</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">points</governor>
+            <dependent idx="17">631</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">with</governor>
+            <dependent idx="18">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">secured</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">secured</governor>
+            <dependent idx="1">Taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">fifth</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Taking</governor>
+            <dependent idx="3">fifth</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">30K</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Taking</governor>
+            <dependent idx="6">30K</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Martinsen</governor>
+            <dependent idx="8">Bente</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">secured</governor>
+            <dependent idx="9">Martinsen</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">Martinsen</governor>
+            <dependent idx="11">Norway</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">place</governor>
+            <dependent idx="13">second</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">secured</governor>
+            <dependent idx="14">place</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">secured</governor>
+            <dependent idx="15">overall</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">points</governor>
+            <dependent idx="17">631</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">secured</governor>
+            <dependent idx="18">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">secured</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">secured</governor>
+            <dependent idx="1">Taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">fifth</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Taking</governor>
+            <dependent idx="3">fifth</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">30K</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Taking</governor>
+            <dependent idx="6">30K</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Martinsen</governor>
+            <dependent idx="8">Bente</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">secured</governor>
+            <dependent idx="9">Martinsen</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">Martinsen</governor>
+            <dependent idx="11">Norway</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">place</governor>
+            <dependent idx="13">second</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">secured</governor>
+            <dependent idx="14">place</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">secured</governor>
+            <dependent idx="15">overall</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">points</governor>
+            <dependent idx="17">631</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">secured</governor>
+            <dependent idx="18">points</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="13">
+        <tokens>
+          <token id="1">
+            <word>Italy</word>
+            <lemma>Italy</lemma>
+            <CharacterOffsetBegin>1232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1237</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>1237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1239</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Stefania</word>
+            <lemma>Stefania</lemma>
+            <CharacterOffsetBegin>1240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1248</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Belmondo</word>
+            <lemma>Belmondo</lemma>
+            <CharacterOffsetBegin>1249</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1257</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1257</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1258</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>1259</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1262</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>placed</word>
+            <lemma>place</lemma>
+            <CharacterOffsetBegin>1263</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1269</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>11th</word>
+            <lemma>11th</lemma>
+            <CharacterOffsetBegin>1270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1274</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>11.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1274</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1275</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>secured</word>
+            <lemma>secured</lemma>
+            <CharacterOffsetBegin>1276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1283</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>third</word>
+            <lemma>third</lemma>
+            <CharacterOffsetBegin>1284</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1289</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>overall</word>
+            <lemma>overall</lemma>
+            <CharacterOffsetBegin>1290</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1297</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>1298</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1302</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>558</word>
+            <lemma>558</lemma>
+            <CharacterOffsetBegin>1303</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1306</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>558.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>points</word>
+            <lemma>point</lemma>
+            <CharacterOffsetBegin>1307</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1313</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1313</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1314</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (NNP Italy) (POS 's)) (NNP Stefania) (NNP Belmondo)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD placed) (ADVP (JJ 11th))))) (, ,)) (VP (JJ secured) (NP (NP (JJ third) (JJ overall)) (PP (IN with) (NP (CD 558) (NNS points))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">secured</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="1">Italy</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="1">Italy</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="3">Stefania</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">secured</governor>
+            <dependent idx="4">Belmondo</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">placed</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="7">placed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="8">11th</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">overall</governor>
+            <dependent idx="11">third</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">secured</governor>
+            <dependent idx="12">overall</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">overall</governor>
+            <dependent idx="13">with</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">points</governor>
+            <dependent idx="14">558</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">with</governor>
+            <dependent idx="15">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">secured</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="1">Italy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="3">Stefania</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">secured</governor>
+            <dependent idx="4">Belmondo</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">placed</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="7">placed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="8">11th</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">overall</governor>
+            <dependent idx="11">third</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">secured</governor>
+            <dependent idx="12">overall</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">points</governor>
+            <dependent idx="14">558</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">overall</governor>
+            <dependent idx="15">points</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">secured</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="1">Italy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="3">Stefania</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">secured</governor>
+            <dependent idx="4">Belmondo</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">placed</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Belmondo</governor>
+            <dependent idx="7">placed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="8">11th</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">overall</governor>
+            <dependent idx="11">third</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">secured</governor>
+            <dependent idx="12">overall</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">points</governor>
+            <dependent idx="14">558</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">overall</governor>
+            <dependent idx="15">points</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>10</end>
+          <head>8</head>
+          <text>Russia 's</text>
+        </mention>
+        <mention>
+          <sentence>8</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>1</head>
+          <text>Russia 's</text>
+        </mention>
+        <mention>
+          <sentence>11</sentence>
+          <start>13</start>
+          <end>15</end>
+          <head>13</head>
+          <text>Russia 's</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>24</start>
+          <end>26</end>
+          <head>25</head>
+          <text>World Cup</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>World Cup</text>
+        </mention>
+        <mention>
+          <sentence>7</sentence>
+          <start>6</start>
+          <end>8</end>
+          <head>7</head>
+          <text>World Cup</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>41</end>
+          <head>3</head>
+          <text>OSLO , Norway -LRB- AP -RRB- _ Russia 's Alexey Prokurorov had no real challengers as he won the 50-kilometer classical-style cross country World Cup race in Holmenkollen Saturday , clocking 2 hours , 32 minutes , 25.3 seconds .</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>Norway</text>
+        </mention>
+        <mention>
+          <sentence>11</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>Norway</text>
+        </mention>
+        <mention>
+          <sentence>12</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>Norway</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>12</end>
+          <head>11</head>
+          <text>Russia 's Alexey Prokurorov</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>he</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Prokurorov</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>19</start>
+          <end>30</end>
+          <head>26</head>
+          <text>the 50-kilometer classical-style cross country World Cup race in Holmenkollen Saturday</text>
+        </mention>
+        <mention>
+          <sentence>7</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>Cup race</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>11</start>
+          <end>13</end>
+          <head>12</head>
+          <text>Bjorn Dahlie</text>
+        </mention>
+        <mention>
+          <sentence>6</sentence>
+          <start>1</start>
+          <end>15</end>
+          <head>1</head>
+          <text>Dahlie , who became the winningest Winter Olympian in history at Nagano last month</text>
+        </mention>
+        <mention>
+          <sentence>6</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Dahlie</text>
+        </mention>
+        <mention>
+          <sentence>7</sentence>
+          <start>11</start>
+          <end>17</end>
+          <head>11</head>
+          <text>Dahlie , a five-time overall champion</text>
+        </mention>
+        <mention>
+          <sentence>7</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>Dahlie</text>
+        </mention>
+        <mention>
+          <sentence>7</sentence>
+          <start>13</start>
+          <end>17</end>
+          <head>16</head>
+          <text>a five-time overall champion</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>23</start>
+          <end>24</end>
+          <head>23</head>
+          <text>second</text>
+        </mention>
+        <mention>
+          <sentence>6</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>second</text>
+        </mention>
+        <mention>
+          <sentence>12</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>second</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>4</sentence>
+          <start>1</start>
+          <end>5</end>
+          <head>2</head>
+          <text>Thomas Alsgaard of Norway</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>he</text>
+        </mention>
+        <mention>
+          <sentence>5</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>He</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>5</sentence>
+          <start>6</start>
+          <end>10</end>
+          <head>9</head>
+          <text>the final overall standings</text>
+        </mention>
+        <mention>
+          <sentence>10</sentence>
+          <start>3</start>
+          <end>6</end>
+          <head>5</head>
+          <text>the final standings</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>12</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>the 30K</text>
+        </mention>
+        <mention>
+          <sentence>8</sentence>
+          <start>22</start>
+          <end>23</end>
+          <head>22</head>
+          <text>30K</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>8</sentence>
+          <start>1</start>
+          <end>5</end>
+          <head>4</head>
+          <text>Russia 's Larissa Lazutina</text>
+        </mention>
+        <mention>
+          <sentence>8</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>she</text>
+        </mention>
+        <mention>
+          <sentence>9</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Lazutina</text>
+        </mention>
+        <mention>
+          <sentence>10</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>She</text>
+        </mention>
+        <mention>
+          <sentence>11</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>Lazutina</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>11</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>third</text>
+        </mention>
+        <mention>
+          <sentence>13</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>third</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>
