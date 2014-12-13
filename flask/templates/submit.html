@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Parse your own story
+{% endblock %}
+
+{% block content %}
+<div class='col-md-12'>
+    <h1>QParse your own article</h1>
+    <form role="form" method="POST">
+        <div class="form-group">
+            <label for="storytext">Step 1: Give me the text of a news article:</label>
+            <textarea class="form-control" id="storytext" placeholder="" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+            <label >Step 2: Click this button and wait a while</label><br/>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
