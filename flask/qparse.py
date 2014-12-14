@@ -1,8 +1,7 @@
 from corenlp import corenlp
 from flask import Flask, render_template, request
 import json
-import jsonrpclib
-import subprocess
+import os
 
 app = Flask(__name__)
 
@@ -10,14 +9,21 @@ app = Flask(__name__)
 def home():
     return render_template('base.html')
 
-@app.route('/story')
-def display_story():
-    with open('out.json', 'r') as infile:
+@app.route('/browse')
+def browse():
+    filepath = 'parsed/'
+    files = [f for f in os.listdir(filepath)]
+    return render_template('browse.html', files=files)
+
+@app.route('/story/<filename>')
+def story(filename):
+    filepath = 'parsed/'
+    with open(filepath+filename, 'r') as infile:
         story = json.load(infile)
-    return render_template('quote.html', story=story)
+    return render_template('quote.html', story=story, title=filename)
 
 @app.route('/parse', methods=["GET", "POST"])
-def input_form():
+def parse():
     if request.method == "GET":
         return render_template('submit.html')
     if request.method == "POST":

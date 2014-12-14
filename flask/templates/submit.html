@@ -4,11 +4,15 @@
     Parse your own story
 {% endblock %}
 
+{% block about_active %}{% endblock %}
+{% block parse_active %}active{% endblock %}
+
 {% block style %}
     <style media="screen">
         .overlay {
             display: none;
-            position: absolute;
+            position: fixed;
+            z-index: 999;
             top: 0; left: 0; right: 0; bottom: 0;
             background-color: rgba(13, 3, 0, 0.77);
         }
@@ -24,16 +28,20 @@
 
 {% block content %}
 <div class='col-md-12'>
-    <h1>QParse your own article</h1>
+    <div class="page-header">
+        <h1>QParse your own article</h1>
+    </div>
+
     <form role="form" method="POST">
         <div class="form-group">
-            <label for="storytext">Step 1: Give me the text of a news article <br/>
+            <label for="storytext">Step 1: Paste in the text of a news article<br/>
             (Try picking one at random from the <a href="http://www.nytimes.com" target="_blank">New York Times</a>)
             </label>
-            <textarea class="form-control" name="storytext" id="storytext" placeholder="" rows="25"></textarea>
+            <textarea class="form-control" name="storytext" id="storytext" placeholder="" rows="15"></textarea>
         </div>
         <div class="form-group">
-            <label>Step 2: Click this button and wait a while</label><br/>
+            <label>Step 2: Click this button and wait a minute
+                (seriously, that's about how long it takes)</label><br/>
             <button type="submit" class="btn btn-success">Submit</button>
         </div>
     </form>

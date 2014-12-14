@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Browse stories for quotes
+{% endblock %}
+
+{% block about_active %}{% endblock %}
+{% block browse_active %}active{% endblock %}
+
+{% block content %}
+    <div class="page-header">
+        <h1>Browse our QParsed articles</h1>
+        <h3>Click any filename to see its quotes identified</h3>
+    </div>
+
+    <ul class="nav nav-pills nav-stacked">
+        {% for file in files %}
+        <li><a href="{{ url_for('story', filename=file) }}">{{file}}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
