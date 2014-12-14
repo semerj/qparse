@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}
-        Bootstrap 101 Template
+        QParse: About
     {% endblock %}</title>
 
     <!-- Bootstrap -->
-    <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='bootstrap/css/bootstrap-lumen.min.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,15 +18,71 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    {% block style %}
+    <style media="screen">
+        .footer {
+            margin-top: 25px;
+        }
+    </style>
 
+    {% block style %}
     {% endblock %}
 </head>
 <body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ url_for('home') }}">QParse</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="{% block about_active %}active{% endblock %}">
+                    <a href="{{ url_for('home') }}">About</a>
+                </li>
+                <li class="{% block browse_active %}{% endblock %}">
+                    <a href="{{ url_for('browse') }}">Browse</a>
+                </li>
+                <li class="{% block parse_active %}{% endblock %}">
+                    <a href="{{ url_for('parse') }}">Parse a new article</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
 <div class="container">
     {% block content %}
-    <h1>Hello, world!</h1>
+    <div class="page-header">
+        <h1>Here is where we tell you everything about QParse</h1>
+        <h3 class="text-muted">
+            we did SO MUCH
+        </h3>
+    </div>
+
     {% endblock %}
+
+    <div class="row">
+    <div class="col-md-12">
+        <div class="footer panel panel-default">
+            <div class="panel-heading"><small>credits</small></div>
+            <div class="panel-body">
+                <small>
+                QParse is a project of i256: Applied Natural Language Processing
+                with Prof. Marti Hearst at the UC Berkeley School of Information
+                by Janine Heiser, Ian MacFarland, and John Semerjian.
+                </small>
+            </div>
+        </div>
+
+    </div>
+    </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
