@@ -5,7 +5,11 @@ assuming we have paragraphs tagged with maxent quote model:
 
 	identify paragraphs with quotes
 
-	for key, paragraph in positively_identified_paragraphs:
+	for key, paragraph in enumerate(positively_identified_paragraphs):
+
+		#########################################
+		####### curent paragraph features #######
+		#########################################
 		if nonquote_section has word "said":
 			'''
 			<QUOTE> said Jorge Costa, the Giants operations director. 
@@ -31,34 +35,22 @@ assuming we have paragraphs tagged with maxent quote model:
 			'''
 			return PERSON nearest to word "said" or <VBD|VBZ>
 
+		###########################################
+		####### previous paragraph features #######
+		###########################################
 		elif last sentence has "said" in positively_identified_paragraphs[key-1]:
-			return PERSON nearest to quote_paragraph
-
-		elif first sentence has "said" in positively_identified_paragraphs[key+1]:
 			return PERSON nearest to quote_paragraph
 
 		elif last sentence has {<PERSON><VBD|VBZ>|<VBD|VBZ><PERSON>} in positively_identified_paragraphs[key-1]:
 			return PERSON nearest to quote_paragraph
 			
-		elif first sentence has {<PERSON><VBD|VBZ>|<VBD|VBZ><PERSON>} in positively_identified_paragraphs[key+1]:
-			return PERSON nearest to quote_paragraph
-
 		elif last sentence has {<VBD|VBZ><DT>?<NN|NNP|NNS>+|<DT>?<NN|NNP|NNS>+<VBD|VBZ>} in positively_identified_paragraphs[key-1]:
 			return <DT>?<NN|NNP|NNS>+ or <NN|NNP|NNS>+<DT>?
-	
-		elif first sentence has {<VBD|VBZ><NN|NNP|NNS>+|<NN|NNP|NNS>+<VBD|VBZ>} in positively_identified_paragraphs[key+1]:
-			return <NN|NNP|NNS> nearest to quote_paragraph
 
 		elif last sentence has <PERSON><,><.*><,*><VBD|VBZ> in positively_identified_paragraphs[key-1]:
 			return PERSON nearest to quote_paragraph
 
-		elif first sentence has <PERSON><,><.*><,*><VBD|VBZ> in positively_identified_paragraphs[key+1]:
-			return PERSON nearest to quote_paragraph
-
 		elif last sentence has <PERSON> in positively_identified_paragraphs[key-1]:
-			return PERSON nearest to quote_paragraph
-
-		elif first sentence has <PERSON> in positively_identified_paragraphs[key+1]:
 			return PERSON nearest to quote_paragraph
 
 		elif <PERSON> "said" in positively_identified_paragraphs[key-2]:
@@ -68,6 +60,27 @@ assuming we have paragraphs tagged with maxent quote model:
 			'''
 			return <PERSON>
 
+		############################################
+		####### preceding paragraph features #######
+		############################################
+		elif first sentence has "said" in positively_identified_paragraphs[key+1]:
+			return PERSON nearest to quote_paragraph
+
+		elif first sentence has {<PERSON><VBD|VBZ>|<VBD|VBZ><PERSON>} in positively_identified_paragraphs[key+1]:
+			return PERSON nearest to quote_paragraph
+
+		elif first sentence has {<VBD|VBZ><NN|NNP|NNS>+|<NN|NNP|NNS>+<VBD|VBZ>} in positively_identified_paragraphs[key+1]:
+			return <NN|NNP|NNS> nearest to quote_paragraph
+
+		elif first sentence has <PERSON><,><.*><,*><VBD|VBZ> in positively_identified_paragraphs[key+1]:
+			return PERSON nearest to quote_paragraph
+
+		elif first sentence has <PERSON> in positively_identified_paragraphs[key+1]:
+			return PERSON nearest to quote_paragraph
+
+		#########################
+		####### fall back #######
+		#########################
 		else:
 			most common <PERSON> in document
 ```
