@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Structural</word>
+            <lemma>Structural</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Dynamics</word>
+            <lemma>Dynamics</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Research</word>
+            <lemma>Research</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Corp.</word>
+            <lemma>Corp.</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>which</word>
+            <lemma>which</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>makes</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>computer-aided</word>
+            <lemma>computer-aided</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>engineering</word>
+            <lemma>engineering</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>software</word>
+            <lemma>software</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>said</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>introduced</word>
+            <lemma>introduce</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>technology</word>
+            <lemma>technology</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>mechanical</word>
+            <lemma>mechanical</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>design</word>
+            <lemma>design</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>automation</word>
+            <lemma>automation</lemma>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>will</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>improve</word>
+            <lemma>improve</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>mechanical</word>
+            <lemma>mechanical</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>engineering</word>
+            <lemma>engineering</lemma>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>191</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>productivity</word>
+            <lemma>productivity</lemma>
+            <CharacterOffsetBegin>192</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Structural) (NNP Dynamics) (NNP Research) (NNP Corp.)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ makes) (NP (JJ computer-aided) (NN engineering) (NN software))))) (, ,)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD introduced) (NP (JJ new) (NN technology)) (PP (IN in) (NP (NP (JJ mechanical) (NN design) (NN automation)) (SBAR (WHNP (WDT that)) (S (VP (MD will) (VP (VB improve) (NP (JJ mechanical) (NN engineering) (NN productivity)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="1">Structural</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="2">Dynamics</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="3">Research</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">said</governor>
+            <dependent idx="4">Corp.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">makes</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="7">makes</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">software</governor>
+            <dependent idx="8">computer-aided</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">software</governor>
+            <dependent idx="9">engineering</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">makes</governor>
+            <dependent idx="10">software</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">introduced</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">said</governor>
+            <dependent idx="14">introduced</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">technology</governor>
+            <dependent idx="15">new</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">introduced</governor>
+            <dependent idx="16">technology</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">introduced</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">automation</governor>
+            <dependent idx="18">mechanical</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">automation</governor>
+            <dependent idx="19">design</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">in</governor>
+            <dependent idx="20">automation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">improve</governor>
+            <dependent idx="21">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">improve</governor>
+            <dependent idx="22">will</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="20">automation</governor>
+            <dependent idx="23">improve</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">productivity</governor>
+            <dependent idx="24">mechanical</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">productivity</governor>
+            <dependent idx="25">engineering</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">improve</governor>
+            <dependent idx="26">productivity</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="1">Structural</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="2">Dynamics</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="3">Research</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">said</governor>
+            <dependent idx="4">Corp.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">makes</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="7">makes</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">software</governor>
+            <dependent idx="8">computer-aided</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">software</governor>
+            <dependent idx="9">engineering</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">makes</governor>
+            <dependent idx="10">software</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">introduced</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">said</governor>
+            <dependent idx="14">introduced</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">technology</governor>
+            <dependent idx="15">new</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">introduced</governor>
+            <dependent idx="16">technology</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">automation</governor>
+            <dependent idx="18">mechanical</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">automation</governor>
+            <dependent idx="19">design</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">introduced</governor>
+            <dependent idx="20">automation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">improve</governor>
+            <dependent idx="21">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">improve</governor>
+            <dependent idx="22">will</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="20">automation</governor>
+            <dependent idx="23">improve</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">productivity</governor>
+            <dependent idx="24">mechanical</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">productivity</governor>
+            <dependent idx="25">engineering</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">improve</governor>
+            <dependent idx="26">productivity</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="1">Structural</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="2">Dynamics</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="3">Research</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">said</governor>
+            <dependent idx="4">Corp.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">makes</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Corp.</governor>
+            <dependent idx="7">makes</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">software</governor>
+            <dependent idx="8">computer-aided</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">software</governor>
+            <dependent idx="9">engineering</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">makes</governor>
+            <dependent idx="10">software</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">introduced</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">said</governor>
+            <dependent idx="14">introduced</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">technology</governor>
+            <dependent idx="15">new</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">introduced</governor>
+            <dependent idx="16">technology</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">automation</governor>
+            <dependent idx="18">mechanical</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">automation</governor>
+            <dependent idx="19">design</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">introduced</governor>
+            <dependent idx="20">automation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">improve</governor>
+            <dependent idx="21">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">improve</governor>
+            <dependent idx="22">will</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="20">automation</governor>
+            <dependent idx="23">improve</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">productivity</governor>
+            <dependent idx="24">mechanical</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">productivity</governor>
+            <dependent idx="25">engineering</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">improve</governor>
+            <dependent idx="26">productivity</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>5</end>
+          <head>3</head>
+          <text>Structural Dynamics Research Corp.</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>
