@@ -50,6 +50,9 @@
                 <li class="{% block browse_active %}{% endblock %}">
                     <a href="{{ url_for('browse') }}">Browse</a>
                 </li>
+                <li class="{% block random_active %}{% endblock %}">
+                    <a href="{{ url_for('random') }}">Random article</a>
+                </li>
                 <li class="{% block parse_active %}{% endblock %}">
                     <a href="{{ url_for('parse') }}">Parse a new article</a>
                 </li>
@@ -59,29 +62,33 @@
 </nav>
 <div class="container">
     {% block content %}
-    <div class="page-header">
-        <h1>Here is where we tell you everything about QParse</h1>
+    <div class="col-md-12 page-header">
+        <h1>QParse</h1>
         <h3 class="text-muted">
-            we did SO MUCH
+            A quotation and information extraction tool
         </h3>
+    </div>
+
+    <div class="col-md-12 lead">
+        <p>
+            here is where we talk about what we did
+        </p>
     </div>
 
     {% endblock %}
 
-    <div class="row">
     <div class="col-md-12">
         <div class="footer panel panel-default">
-            <div class="panel-heading"><small>credits</small></div>
+            <div class="panel-heading"><small>Credits</small></div>
             <div class="panel-body">
                 <small>
-                QParse is a project of i256: Applied Natural Language Processing
-                with Prof. Marti Hearst at the UC Berkeley School of Information
-                by Janine Heiser, Ian MacFarland, and John Semerjian.
+                QParse is a project of INFO 256: Applied Natural Language Processing
+                with Professor Marti Hearst at the UC Berkeley School of Information
+                by <strong>Janine Heiser</strong>, <strong>Ian MacFarland</strong>,
+                and <strong>John Semerjian</strong>.
                 </small>
             </div>
         </div>
-
-    </div>
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,21 +1,61 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Browse stories for quotes
+    QParse: Browse articles
 {% endblock %}
 
 {% block about_active %}{% endblock %}
 {% block browse_active %}active{% endblock %}
 
 {% block content %}
-    <div class="page-header">
+    <div class="page-header col-md-12">
         <h1>Browse our QParsed articles</h1>
-        <h3>Click any filename to see its quotes identified</h3>
+        <h3>or just
+            <a href="{{ url_for('random') }}">go to a random article</a>
+        </h3>
     </div>
 
-    <ul class="nav nav-pills nav-stacked">
-        {% for file in files %}
-        <li><a href="{{ url_for('story', filename=file) }}">{{file}}</a></li>
-        {% endfor %}
-    </ul>
+    <div role="tabpanel" class="col-md-12">
+        <nav >
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#byarticle" data-toggle="tab">by article</a></li>
+                <li><a href="#byspeaker" data-toggle="tab">by speaker</a></li>
+                <li><a href="#byorg" data-toggle="tab">by organization</a></li>
+            </ul>
+        </nav>
+
+        <!-- Tab panes -->
+        <div class="tab-content" style="margin-top: 25px;">
+            <div role="tabpanel" class="tab-pane active" id="byarticle">
+                <ul>
+                    {% for article in articles %}
+                    <li><a href="{{ url_for('story', id=article.id) }}">{{article.name}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="byspeaker">
+                <ul>
+                    {% for speaker in speakers %}
+                        <li>
+                            <a href="{{ url_for('speaker', id=speaker._id) }}">
+                                {{ speaker._id }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="byorg">
+                <ul>
+                    {% for org in orgs %}
+                    <li>
+                        <a href="{{ url_for('org', id=org._id) }}">
+                            {{ org._id }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
 {% endblock %}

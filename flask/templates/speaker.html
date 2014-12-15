@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}
+QParse: Said by {{ name }}
+{% endblock %}
+
+{% block style %}
+<style media="screen">
+.quote {
+    color: #1d13cc;
+}
+.speaker{
+    color: #bf22d0;
+}
+.position {
+    color: #03c310;
+}
+.organization {
+    color: #e60447;
+}
+</style>
+{% endblock %}
+
+{% block about_active %}{% endblock %}
+
+{% block content %}
+<h1>Speaker: <span class="speaker">{{ name }}</span></h1>
+
+<div class="row">
+    <div class="col-md-7">
+        <h2>Context (paragraph)</h2>
+    </div>
+    <div class="col-md-5">
+        <h2>Quotes</h2>
+    </div>
+</div>
+
+{% for para in quotes %}
+<div class="row">
+    <div class="col-md-7">
+        <p>
+            {{ para.paragraphs.fulltext | safe }}
+        </p>
+        <p>
+            full story: <a href="{{url_for('story', id=para._id)}}">{{para.name}}</a>
+        </p>
+    </div>
+    <div class="col-md-5">
+        {% if para.paragraphs.quote %}
+        <dl class="dl-horizontal">
+            <dt>quote</dt>
+            <dd><span class="quote">{{ para.paragraphs.quote }}</span></dd>
+            <dt>position</dt>
+            <dd><span class="position">{{ para.paragraphs.position }}</span></dd>
+            <dt>organization</dt>
+            <dd><span class="organization">{{ para.paragraphs.organization }}</span></dd>
+        </ul>
+        {% else %}
+        <p>
+            None
+        </p>
+        {% endif %}
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+</div>
+
+{% endfor %}
+
+{% endblock %}

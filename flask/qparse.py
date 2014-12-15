@@ -1,9 +1,39 @@
-from corenlp import corenlp
-from flask import Flask, render_template, request
 import json
 import os
 
+from bson.objectid import ObjectId
+from flask import Flask, render_template, request
+from mongokit import Connection, Document
+
+from corenlp import corenlp
+
+
+# Mongo configuration
+MONGODB_HOST = 'localhost'
+MONGODB_PORT = 27017
+
 app = Flask(__name__)
+app.config.from_object(__name__)
+
+# connect to the database
+conn = Connection(app.config['MONGODB_HOST'], app.config['MONGODB_PORT'])
+coll = conn['qparse'].articles
+
+# db models
+@conn.register
+class Article(Document):
+    __database__ = 'qparse'
+    __collection__ = 'articles'
+    structure = {
+        'name': str,
+        'paragraphs': [{
+            'quote': unicode,
+            'speaker': unicode,
+            'position': unicode,
+            'organization': unicode,
+            'fulltext': unicode
+        }]
+    }
 
 @app.route('/')
 def home():
@@ -11,16 +41,78 @@ def home():
 
 @app.route('/browse')
 def browse():
-    filepath = 'parsed/'
-    files = [f for f in os.listdir(filepath)]
-    return render_template('browse.html', files=files)
+    artlist = []
+    # get all articles from mongo
+    articles = coll.Article.find()
+    for a in articles:
+        artlist.append({
+            'name': a['name'],
+            'id': a['_id']
+        })
 
-@app.route('/story/<filename>')
-def story(filename):
-    filepath = 'parsed/'
-    with open(filepath+filename, 'r') as infile:
-        story = json.load(infile)
-    return render_template('quote.html', story=story, title=filename)
+    speakers = coll.aggregate([
+        {'$unwind': '$paragraphs'},
+        {'$match': {
+            'paragraphs.speaker': {
+                '$ne': None
+                }
+            }
+        },
+        {'$group': {
+            '_id': '$paragraphs.speaker'
+            }
+        }
+    ])
+
+    speaklist = [s for s in speakers['result']]
+
+
+    orgs = coll.aggregate([
+        {'$unwind': '$paragraphs'},
+        {'$match': {
+            'paragraphs.organization': {
+                '$ne': None
+                }
+            }
+        },
+        {'$group': {
+            '_id': '$paragraphs.organization'
+            }
+        }
+    ])
+
+    orglist = [o for o in orgs['result']]
+
+    return render_template('browse.html', articles=artlist, speakers=speaklist, orgs=orglist)
+
+@app.route('/article/<id>')
+def story(id):
+    article = coll.Article.find_one({'_id': ObjectId(id)})
+    return render_template('article.html', article=article)
+
+@app.route('/speaker/<id>')
+def speaker(id):
+    quotes = coll.aggregate([
+        {'$unwind': '$paragraphs'},
+        {'$match': {'paragraphs.speaker': id }}
+    ])
+    quotelist = [q for q in quotes['result']]
+    return render_template('speaker.html', name=id, quotes=quotelist)
+
+@app.route('/org/<id>')
+def org(id):
+    quotes = coll.aggregate([
+        {'$unwind': '$paragraphs'},
+        {'$match': {'paragraphs.organization': id }}
+    ])
+    quotelist = [q for q in quotes['result']]
+    return render_template('org.html', name=id, quotes=quotelist)
+
+
+@app.route('/random')
+def random():
+    article = coll.Article.find_random()
+    return render_template('article.html', article=article)
 
 @app.route('/parse', methods=["GET", "POST"])
 def parse():

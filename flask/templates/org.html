@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-{{ title }}
+QParse: Said on behalf of {{ name }}
 {% endblock %}
 
 {% block style %}
@@ -24,35 +24,36 @@
 {% block about_active %}{% endblock %}
 
 {% block content %}
-<h1>{{ title }}</h1>
+<h1>Organization: <span class="organization">{{ name }}</span></h1>
 
 <div class="row">
     <div class="col-md-7">
-        <h2>Article</h2>
+        <h2>Context (paragraph)</h2>
     </div>
     <div class="col-md-5">
         <h2>Quotes</h2>
     </div>
 </div>
 
-{% for para in story %}
+{% for para in quotes %}
 <div class="row">
     <div class="col-md-7">
         <p>
-            {{ para.fulltext | safe }}
+            {{ para.paragraphs.fulltext | safe }}
+        </p>
+        <p>
+            full story: <a href="{{url_for('story', id=para._id)}}">{{para.name}}</a>
         </p>
     </div>
     <div class="col-md-5">
-        {% if para.quote %}
+        {% if para.paragraphs.quote %}
         <dl class="dl-horizontal">
             <dt>quote</dt>
-            <dd><span class="quote">{{ para.quote }}</span></dd>
+            <dd><span class="quote">{{ para.paragraphs.quote }}</span></dd>
             <dt>speaker</dt>
-            <dd><span class="speaker">{{ para.speaker }}</span></dd>
+            <dd><span class="speaker">{{ para.paragraphs.speaker }}</span></dd>
             <dt>position</dt>
-            <dd><span class="position">{{ para.position }}</span></dd>
-            <dt>organization</dt>
-            <dd><span class="organization">{{ para.organization }}</span></dd>
+            <dd><span class="position">{{ para.paragraphs.position }}</span></dd>
         </ul>
         {% else %}
         <p>
