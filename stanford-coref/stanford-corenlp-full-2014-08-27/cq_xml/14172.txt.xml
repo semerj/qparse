@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Rudolph</word>
+            <lemma>Rudolph</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Agnew</word>
+            <lemma>Agnew</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>55</word>
+            <lemma>55</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P55Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P55Y</Timex>
+          </token>
+          <token id="5">
+            <word>years</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P55Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P55Y</Timex>
+          </token>
+          <token id="6">
+            <word>old</word>
+            <lemma>old</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P55Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P55Y</Timex>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>former</word>
+            <lemma>former</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>chairman</word>
+            <lemma>chairman</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Consolidated</word>
+            <lemma>Consolidated</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Gold</word>
+            <lemma>Gold</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Fields</word>
+            <lemma>Fields</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>PLC</word>
+            <lemma>PLC</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>named</word>
+            <lemma>name</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>nonexecutive</word>
+            <lemma>nonexecutive</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>director</word>
+            <lemma>director</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>British</word>
+            <lemma>british</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>industrial</word>
+            <lemma>industrial</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>conglomerate</word>
+            <lemma>conglomerate</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Rudolph) (NNP Agnew)) (, ,) (UCP (ADJP (NP (CD 55) (NNS years)) (JJ old)) (CC and) (NP (NP (JJ former) (NN chairman)) (PP (IN of) (NP (NNP Consolidated) (NNP Gold) (NNP Fields) (NNP PLC))))) (, ,)) (VP (VBD was) (VP (VBN named) (NP (NP (DT a) (JJ nonexecutive) (NN director)) (PP (IN of) (NP (DT this) (JJ British) (JJ industrial) (NN conglomerate)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">named</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="1">Rudolph</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">named</governor>
+            <dependent idx="2">Agnew</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">years</governor>
+            <dependent idx="4">55</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="6">old</governor>
+            <dependent idx="5">years</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">old</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">chairman</governor>
+            <dependent idx="8">former</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">old</governor>
+            <dependent idx="9">chairman</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">chairman</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="11">Consolidated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="12">Gold</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="13">Fields</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="14">PLC</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">named</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">director</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">director</governor>
+            <dependent idx="19">nonexecutive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">named</governor>
+            <dependent idx="20">director</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">director</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="22">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="23">British</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="24">industrial</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">of</governor>
+            <dependent idx="25">conglomerate</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">named</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="1">Rudolph</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">named</governor>
+            <dependent idx="2">Agnew</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">years</governor>
+            <dependent idx="4">55</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="6">old</governor>
+            <dependent idx="5">years</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">chairman</governor>
+            <dependent idx="8">former</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">old</governor>
+            <dependent idx="9">chairman</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="11">Consolidated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="12">Gold</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="13">Fields</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">chairman</governor>
+            <dependent idx="14">PLC</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">named</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">director</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">director</governor>
+            <dependent idx="19">nonexecutive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">named</governor>
+            <dependent idx="20">director</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="22">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="23">British</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="24">industrial</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">director</governor>
+            <dependent idx="25">conglomerate</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">named</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="1">Rudolph</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">named</governor>
+            <dependent idx="2">Agnew</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">years</governor>
+            <dependent idx="4">55</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="6">old</governor>
+            <dependent idx="5">years</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">chairman</governor>
+            <dependent idx="8">former</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Agnew</governor>
+            <dependent idx="9">chairman</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">old</governor>
+            <dependent idx="9">chairman</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="11">Consolidated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="12">Gold</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">PLC</governor>
+            <dependent idx="13">Fields</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">chairman</governor>
+            <dependent idx="14">PLC</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">named</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">director</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">director</governor>
+            <dependent idx="19">nonexecutive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">named</governor>
+            <dependent idx="20">director</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="22">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="23">British</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">conglomerate</governor>
+            <dependent idx="24">industrial</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">director</governor>
+            <dependent idx="25">conglomerate</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
