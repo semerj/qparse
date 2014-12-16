@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-QParse: {{ article.name }}
+QParse: {{ article[0].story_id }}
 {% endblock %}
 
 {% block style %}
@@ -29,7 +29,7 @@ QParse: {{ article.name }}
 {% endblock %}
 
 {% block content %}
-<h1>{{ article.name }}</h1>
+<h1>{{ article[0].story_id }}</h1>
 
 <div class="row">
     <div class="col-md-7">
@@ -40,18 +40,18 @@ QParse: {{ article.name }}
     </div>
 </div>
 
-{% for para in article.paragraphs %}
+{% for para in article %}
 <div class="row">
     <div class="col-md-7">
         <p>
-            {{ para.fulltext | safe }}
+            {{ para.paragraph | safe }}
         </p>
     </div>
     <div class="col-md-5">
-        {% if para.quote %}
+        {% if para.quote_in_para %}
         <dl class="dl-horizontal">
             <dt>quote</dt>
-            <dd><span class="quote">{{ para.quote }}</span></dd>
+            <dd><span class="quote">{{ para.quotations }}</span></dd>
             <dt>speaker</dt>
             <dd><span class="speaker">{{ para.speaker }}</span></dd>
             <dt>position</dt>

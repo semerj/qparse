@@ -24,6 +24,19 @@ coll = conn['qparse'].articles
 
 # db models
 @conn.register
+class Paragraph(Document):
+    __database__ = 'qparse'
+    __collection__ = 'paragraphs'
+    structure = {
+        'para_index': int,
+        'story_id': int,
+        'paragraph': unicode,
+        'speaker': list,
+        'quote_in_para': int,
+        'quotations': list
+    }
+
+@conn.register
 class Article(Document):
     __database__ = 'qparse'
     __collection__ = 'articles'
@@ -37,6 +50,7 @@ class Article(Document):
             'fulltext': unicode
         }]
     }
+
 
 @app.route('/')
 def home():
@@ -114,7 +128,9 @@ def org(id):
 
 @app.route('/random')
 def random():
-    article = coll.Article.find_random()
+    p = coll.Paragraph.find_random()
+    story_id = p['story_id']
+    article = coll.Paragraph.find({"story_id": story_id})
     return render_template('article.html', article=article)
 
 @app.route('/parse', methods=["GET", "POST"])
