@@ -123,20 +123,24 @@ def parse():
     if request.method == "POST":
         # process the story
         # from magic import do.everything
-        # pickle this test data to minimize re-parsing for now
-        storytext = unidecode(request.form['storytext'])
-        # with open('storytext.pickle', 'w') as outfile:
-        #     pickle.dump(storytext, outfile)
-        # step 1: feed paragraphs to the classifier
-        paras, has_quote = quotex(storytext)
-        # with open('paras.pickle', 'w') as outfile:
-        #     pickle.dump(paras, outfile)
-        # with open('has_quote.pickle', 'w') as outfile:
-        #     pickle.dump(has_quote, outfile)
 
+        # TODO: pickle this test data to minimize re-parsing for now
+        # storytext = unidecode(request.form['storytext'])
+        with open('storytext.pickle', 'r') as outfile:
+            storytext = pickle.load(outfile)
+
+        # step 1: feed paragraphs to the classifier
+        # paras, has_quote = quotex(storytext)
+
+        with open('paras.pickle', 'r') as outfile:
+            paras = pickle.load(outfile)
+        with open('has_quote.pickle', 'r') as outfile:
+            has_quote = pickle.load(outfile)
+
+        # TODO: put back
         # write it to a text file to feed to the parser
-        with open('upload/temp', 'w') as outfile:
-            outfile.write(storytext)
+        # with open('upload/temp', 'w') as outfile:
+        #     outfile.write(storytext)
 
         # TODO: this is slow af
         # parsed = corenlp.batch_parse('upload/', 'corenlp-python/javaparser/')
@@ -144,14 +148,10 @@ def parse():
         # there will only ever be one file to parse
         # parsed = next(parsed)
         # pickle this for testing so i don't have to fucking reparse every time
-        # print parsed
+        with open('parsed.pickle', 'r') as outfile:
+            parsed = pickle.load(outfile)
 
-        # assume there's already a stanfordnlp server running
-        # server = jsonrpclib.Server("http://127.0.0.1:8080")
-        # return server.parse(storytext)
-        # TODO: too slow, it just stalls out without erroring
-
-        # return 'see file'
+        # TODO: munge the data for chunking
 
         #display the results
         with open('out.json', 'r') as infile:
