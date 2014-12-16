@@ -1,12 +1,14 @@
 import json
 import os
+import pickle
 
 from bson.objectid import ObjectId
 from flask import Flask, render_template, request
 from mongokit import Connection, Document
+from unidecode import unidecode
 
+from classify import quotex
 from corenlp import corenlp
-
 
 # Mongo configuration
 MONGODB_HOST = 'localhost'
@@ -121,16 +123,27 @@ def parse():
     if request.method == "POST":
         # process the story
         # from magic import do.everything
-        storytext = request.form['storytext']
+        # pickle this test data to minimize re-parsing for now
+        storytext = unidecode(request.form['storytext'])
+        # with open('storytext.pickle', 'w') as outfile:
+        #     pickle.dump(storytext, outfile)
+        # step 1: feed paragraphs to the classifier
+        paras, has_quote = quotex(storytext)
+        # with open('paras.pickle', 'w') as outfile:
+        #     pickle.dump(paras, outfile)
+        # with open('has_quote.pickle', 'w') as outfile:
+        #     pickle.dump(has_quote, outfile)
+
         # write it to a text file to feed to the parser
         with open('upload/temp', 'w') as outfile:
-            outfile.write(storytext.encode('utf8'))
+            outfile.write(storytext)
 
         # TODO: this is slow af
-        parsed = corenlp.batch_parse('upload/', 'corenlp-python/javaparser/')
+        # parsed = corenlp.batch_parse('upload/', 'corenlp-python/javaparser/')
 
         # there will only ever be one file to parse
-        parsed = next(parsed)
+        # parsed = next(parsed)
+        # pickle this for testing so i don't have to fucking reparse every time
         # print parsed
 
         # assume there's already a stanfordnlp server running
@@ -143,7 +156,7 @@ def parse():
         #display the results
         with open('out.json', 'r') as infile:
             story = json.load(infile)
-        return render_template('quote.html', story=story)
+        return render_template('article.html', article=story)
 
 if __name__ == '__main__':
     app.run(debug=True)
