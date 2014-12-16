@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[39]:
+# In[48]:
 
 import pandas as pd
 import ast
@@ -16,7 +16,7 @@ pp = pprint.PrettyPrinter(indent=2)
 
 # ### Read CSV as Dict
 
-# In[40]:
+# In[49]:
 
 df_dict = []
 with open('all_sentences_tagged_indexed__complete.csv') as csvfile:
@@ -33,7 +33,7 @@ with open('all_sentences_tagged_indexed__complete.csv') as csvfile:
 
 # ### Load Single Document
 
-# In[41]:
+# In[50]:
 
 quote_grammar = '''
 NONQUOTE:   { <.*>+ } 
@@ -49,7 +49,7 @@ QUOTE:      { <``> <.*>+ (<''>|<\'\'>) }
 
 # ### FUNCTIONS
 
-# In[46]:
+# In[51]:
 
 def find_ngrams(input_list, n):
     return zip(*[input_list[i:] for i in range(n)])
@@ -129,21 +129,21 @@ def parsing_function(ARTICLE_DICT, i, lookahead=0, featurenames='', getquotes=Fa
                 pos_match_indices = [x for x, y in enumerate(pos_bigrams) if y == (u'NNP', u'NNP')]
                 matching_pos_words = []
                 for index in pos_match_indices:
-                    matching_pos_words.append(words[index])
+                    matching_pos_words.append(words[index+1])
                 ARTICLE_DICT[i]['feature_nnp_nnp' + featurenames] = matching_pos_words
 
             if (u'NNS', u'NNP') in pos_bigrams:
                 pos_match_indices = [x for x, y in enumerate(pos_bigrams) if y == (u'NNS', u'NNP')]
                 matching_pos_words = []
                 for index in pos_match_indices:
-                    matching_pos_words.append(words[index])
+                    matching_pos_words.append(words[index+1])
                 ARTICLE_DICT[i]['feature_nns_nnp' + featurenames] = matching_pos_words
                 
             if (u'NNP', u'NNS') in pos_bigrams:
                 pos_match_indices = [x for x, y in enumerate(pos_bigrams) if y == (u'NNP', u'NNS')]
                 matching_pos_words = []
                 for index in pos_match_indices:
-                    matching_pos_words.append(words[index])
+                    matching_pos_words.append(words[index+1])
                 ARTICLE_DICT[i]['feature_nnp_nns' + featurenames] = matching_pos_words
                 
     return ARTICLE_DICT
@@ -257,7 +257,7 @@ def algorithm(ARTICLE):
 
 # # Write all Citizen-Quotes articles to JSON
 
-# In[47]:
+# In[52]:
 
 citizen_quotes_groups = group_articles(df_dict)
 
