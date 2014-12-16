@@ -62,18 +62,37 @@
 </nav>
 <div class="container">
     {% block content %}
-    <div class="col-md-12 page-header">
+    <div class="col-md-12 jumbotron">
         <h1>QParse</h1>
-        <h3 class="text-muted">
+        <h2 class="text-muted">
             A quotation and information extraction tool
-        </h3>
+        </h2>
     </div>
 
-    <div class="col-md-12 lead">
+    <div class="col-md-12">
+        <p class="lead">QParse is a tool for extrating quotations from news articles in a structured way and associating them with speakers and organizations.</p>
+
+        <h2>How it works</h2>
+        <p>QParse utilizes a multi-part processing pipeline:</p>
+        <ol>
+            <li>With a supervised classification algorithm (adapted from an existing open-source project, <a href="https://github.com/cirlabs/citizen-quotes" target="_blank">Citizen Quotes</a>), we identify paragraphs that are likely to contain quotations.</li>
+            <li>With the Stanford CoreNLP tool, we reconcile coreference chains with named entities to aid speaker identification.</li>
+            <li>We use a rule-based chunking algorithm to extract quotation and speaker features from the paragraphs identified by our classifier and choose the most likely answers.</li>
+            <li>We use a second rule-based algorithm to associate the identified speakers with their job titles and organizations with regular expressions.</li>
+        </ol>
+
+        <h2>Browse the results</h2>
         <p>
-            here is where we talk about what we did
+            <a href="{{ url_for('browse') }}">Explore our pre-processed articles</a>, indexed by article, speaker, and organization.
         </p>
+
+        <h2>Try it out</h2>
+        <p>
+            <a href="{{ url_for('parse') }}">QParse your own article!</a> Copy/paste the text of a news article into QParse and see how well it does. <em>(Warning: it's super slow, be prepared to wait a minute or so.)</em>
+        </p>
+
     </div>
+
 
     {% endblock %}
 
