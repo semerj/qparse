@@ -1,3 +1,4 @@
+import hashlib
 import pandas as pd
 
 def resolve(raw_paras, guesses, parsed):
@@ -192,12 +193,19 @@ def resolve(raw_paras, guesses, parsed):
                 # make sure it's stored in the original paras list
                 paras[i][1] = new_sent
 
+    # generate unique story id
+    sent_1 = ' '.join([t[0] for t in paras[0][1]])
+    story_id = hashlib.sha224(sent_1).hexdigest()[:7]
+
     # add to final data structure
-    for row in paras:
+    for key, row in enumerate(paras):
         # remember 0 is the dummy story id
-        sentences_out.append([0, row[0], row[1], row[2]])
-
-    tagged_sents = pd.DataFrame(data=sentences_out,
-        columns=['story_id', 'para_index', 'tagged_sent', 'quote_in_para'])
-
-    # tagged_sents gets passed to the next algorithm
+        sentences_out.append({
+            'sent_index': key,
+            'story_id':story_id,
+            'para_index':row[0],
+            'tagged_sent': row[1],
+            'quote_in_para': row[2]
+        })
+    return sentences_out
+    # sentences_out gets passed to the next algorithm

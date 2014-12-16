@@ -37,7 +37,7 @@ class Paragraph(Document):
 #         }]
 #     }
 
-with open('data.json', 'r') as infile:
+with open('citizen_quotes.json', 'r') as infile:
     paras = json.load(infile)
 
 for para in paras:
