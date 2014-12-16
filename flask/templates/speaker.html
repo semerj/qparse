@@ -39,27 +39,21 @@ QParse: Said by {{ name }}
 <div class="row">
     <div class="col-md-7">
         <p>
-            {{ para.paragraphs.fulltext | safe }}
+            {{ para.paragraph | safe }}
         </p>
         <p>
-            full story: <a href="{{url_for('story', id=para._id)}}">{{para.name}}</a>
+            full story: <a href="{{url_for('story', id=para.story_id)}}">{{para.story_id}}</a>
         </p>
     </div>
     <div class="col-md-5">
-        {% if para.paragraphs.quote %}
         <dl class="dl-horizontal">
             <dt>quote</dt>
-            <dd><span class="quote">{{ para.paragraphs.quote }}</span></dd>
+            <dd><span class="quote">{{ para.quotations }}</span></dd>
             <dt>position</dt>
-            <dd><span class="position">{{ para.paragraphs.position }}</span></dd>
-            <dt>organization</dt>
-            <dd><span class="organization">{{ para.paragraphs.organization }}</span></dd>
+            <dd><span class="position">{{ para.position }}</span></dd>
+            <!-- <dt>organization</dt>
+            <dd><span class="organization">{{ para.organization }}</span></dd> -->
         </ul>
-        {% else %}
-        <p>
-            None
-        </p>
-        {% endif %}
     </div>
     <div class="col-md-12">
         <hr>

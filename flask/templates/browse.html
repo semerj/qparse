@@ -20,7 +20,7 @@
             <ul class="nav nav-tabs" role="tablist">
                 <li class="active"><a href="#byarticle" data-toggle="tab">by article</a></li>
                 <li><a href="#byspeaker" data-toggle="tab">by speaker</a></li>
-                <li><a href="#byorg" data-toggle="tab">by organization</a></li>
+                <!-- <li><a href="#byorg" data-toggle="tab">by organization</a></li> -->
             </ul>
         </nav>
 
@@ -29,7 +29,7 @@
             <div role="tabpanel" class="tab-pane active" id="byarticle">
                 <ul>
                     {% for article in articles %}
-                    <li><a href="{{ url_for('story', id=article.id) }}">{{article.name}}</a></li>
+                    <li><a href="{{ url_for('story', id=article.name) }}">{{article.name}}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -37,14 +37,14 @@
                 <ul>
                     {% for speaker in speakers %}
                         <li>
-                            <a href="{{ url_for('speaker', id=speaker._id) }}">
-                                {{ speaker._id }}
+                            <a href="{{ url_for('speaker', id=speaker.name) }}">
+                                {{ speaker.name }}
                             </a>
                         </li>
                     {% endfor %}
                 </ul>
             </div>
-            <div role="tabpanel" class="tab-pane" id="byorg">
+            <!-- <div role="tabpanel" class="tab-pane" id="byorg">
                 <ul>
                     {% for org in orgs %}
                     <li>
@@ -54,7 +54,7 @@
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 

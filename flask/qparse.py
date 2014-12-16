@@ -20,7 +20,7 @@ app.config.from_object(__name__)
 
 # connect to the database
 conn = Connection(app.config['MONGODB_HOST'], app.config['MONGODB_PORT'])
-coll = conn['qparse'].articles
+coll = conn['qparse'].paragraphs
 
 # db models
 @conn.register
@@ -36,22 +36,6 @@ class Paragraph(Document):
         'quotations': list
     }
 
-@conn.register
-class Article(Document):
-    __database__ = 'qparse'
-    __collection__ = 'articles'
-    structure = {
-        'name': str,
-        'paragraphs': [{
-            'quote': unicode,
-            'speaker': unicode,
-            'position': unicode,
-            'organization': unicode,
-            'fulltext': unicode
-        }]
-    }
-
-
 @app.route('/')
 def home():
     return render_template('base.html')
@@ -60,30 +44,21 @@ def home():
 def browse():
     artlist = []
     # get all articles from mongo
-    articles = coll.Article.find()
-    for a in articles:
+    article_ids = coll.distinct('story_id')
+    for a in article_ids:
         artlist.append({
-            'name': a['name'],
-            'id': a['_id']
+            'name': a
         })
 
-    speakers = coll.aggregate([
-        {'$unwind': '$paragraphs'},
-        {'$match': {
-            'paragraphs.speaker': {
-                '$ne': None
-                }
-            }
-        },
-        {'$group': {
-            '_id': '$paragraphs.speaker'
-            }
-        }
-    ])
+    speaker_ids = coll.distinct('speaker')
+    speaklist = []
+    for s in speaker_ids:
+        if s:
+            speaklist.append({
+                'name': s
+            })
 
-    speaklist = [s for s in speakers['result']]
-
-
+    # this doesn't do anything, we don't have org data
     orgs = coll.aggregate([
         {'$unwind': '$paragraphs'},
         {'$match': {
@@ -102,22 +77,33 @@ def browse():
 
     return render_template('browse.html', articles=artlist, speakers=speaklist, orgs=orglist)
 
-@app.route('/article/<id>')
+@app.route('/article/<int:id>')
 def story(id):
-    article = coll.Article.find_one({'_id': ObjectId(id)})
+    paras = coll.Paragraph.find({'story_id': id}).sort('para_index')
+    article = []
+    # splice in span tags
+    for p in paras:
+        p['paragraph'] = p['paragraph'].replace("``", '<span class="quote">'+"``")
+        p['paragraph'] = p['paragraph'].replace("''", "''"+'</span>')
+        if p['speaker']:
+            for speaker in p['speaker']:
+                tagged_speaker = '<span class="speaker">' + speaker + "</span>"
+                p['paragraph'] = p['paragraph'].replace(speaker, tagged_speaker)
+        article.append(p)
+
+
     return render_template('article.html', article=article)
 
 @app.route('/speaker/<id>')
 def speaker(id):
-    quotes = coll.aggregate([
-        {'$unwind': '$paragraphs'},
-        {'$match': {'paragraphs.speaker': id }}
-    ])
-    quotelist = [q for q in quotes['result']]
+    quotelist = coll.Paragraph.find({'speaker': id})
     return render_template('speaker.html', name=id, quotes=quotelist)
 
 @app.route('/org/<id>')
 def org(id):
+    """
+    we don't actually have this data
+    """
     quotes = coll.aggregate([
         {'$unwind': '$paragraphs'},
         {'$match': {'paragraphs.organization': id }}
@@ -174,7 +160,9 @@ def parse():
         # TODO: add algorithms for picking out quote, speaker, job, org
 
         #display the results
-        story = coll.Article.find_random()
+        random = coll.Paragraph.find_random()
+        story_id = random['story_id']
+        story = coll.Paragraph.find({"story_id": story_id})
         return render_template('article.html', article=story)
 
 if __name__ == '__main__':
