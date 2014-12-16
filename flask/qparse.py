@@ -7,6 +7,7 @@ from flask import Flask, render_template, request
 from mongokit import Connection, Document
 from unidecode import unidecode
 
+import coreference
 from classify import quotex
 from corenlp import corenlp
 
@@ -151,11 +152,13 @@ def parse():
         with open('parsed.pickle', 'r') as outfile:
             parsed = pickle.load(outfile)
 
-        # TODO: munge the data for chunking
+        # munge the data for chunking
+        coreference.resolve(paras, has_quote, parsed)
+
+        # TODO: add algorithms for picking out quote, speaker, job, org
 
         #display the results
-        with open('out.json', 'r') as infile:
-            story = json.load(infile)
+        story = coll.Article.find_random()
         return render_template('article.html', article=story)
 
 if __name__ == '__main__':
