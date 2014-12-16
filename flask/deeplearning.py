@@ -49,7 +49,7 @@ QUOTE:      { <``> <.*>+ (<''>|<\'\'>) }
 
 # ### FUNCTIONS
 
-# In[ ]:
+# In[51]:
 
 def find_ngrams(input_list, n):
     return zip(*[input_list[i:] for i in range(n)])
@@ -125,12 +125,26 @@ def parsing_function(ARTICLE_DICT, i, lookahead=0, featurenames='', getquotes=Fa
                     matching_corefs.append(words[index])
                 ARTICLE_DICT[i]['feature_coref_only' + featurenames] = matching_corefs
 
-            if (u'NNP', u'NNP') in pos_tags:
-                said_match_indices = [x for x, y in enumerate(pos_tags) if y == (u'NNP', u'NNP')]
-                matching_corefs = []
-                for index in said_match_indices:
-                    matching_corefs.append(words[index])
-                ARTICLE_DICT[i]['feature_nnp_nnp' + featurenames] = matching_corefs
+            if (u'NNP', u'NNP') in pos_bigrams:
+                pos_match_indices = [x for x, y in enumerate(pos_bigrams) if y == (u'NNP', u'NNP')]
+                matching_pos_words = []
+                for index in pos_match_indices:
+                    matching_pos_words.append(words[index+1])
+                ARTICLE_DICT[i]['feature_nnp_nnp' + featurenames] = matching_pos_words
+
+            if (u'NNS', u'NNP') in pos_bigrams:
+                pos_match_indices = [x for x, y in enumerate(pos_bigrams) if y == (u'NNS', u'NNP')]
+                matching_pos_words = []
+                for index in pos_match_indices:
+                    matching_pos_words.append(words[index+1])
+                ARTICLE_DICT[i]['feature_nns_nnp' + featurenames] = matching_pos_words
+
+            if (u'NNP', u'NNS') in pos_bigrams:
+                pos_match_indices = [x for x, y in enumerate(pos_bigrams) if y == (u'NNP', u'NNS')]
+                matching_pos_words = []
+                for index in pos_match_indices:
+                    matching_pos_words.append(words[index+1])
+                ARTICLE_DICT[i]['feature_nnp_nns' + featurenames] = matching_pos_words
 
     return ARTICLE_DICT
 
@@ -174,9 +188,9 @@ def algorithm(ARTICLE):
                 if ARTICLE_DICT[i-1]['quote_in_para'] == 1:
                     parsing_function(ARTICLE_DICT=ARTICLE_DICT, i=i, lookahead=-1, featurenames='_back')
 
-            else:
+            elif j['para_index'] < LAST_PARA_INDEX:
                 '''Middle paragraph'''
-                #parsing_function(ARTICLE_DICT=ARTICLE_DICT, i=i, lookahead=1, featurenames='_ahead')
+                parsing_function(ARTICLE_DICT=ARTICLE_DICT, i=i, lookahead=1, featurenames='_ahead')
                 parsing_function(ARTICLE_DICT=ARTICLE_DICT, i=i, lookahead=-1, featurenames='_back')
 
     ARTICLE_DF = pd.DataFrame(ARTICLE_DICT).fillna(0)
@@ -192,31 +206,54 @@ def algorithm(ARTICLE):
         JSON_DICT['story_id'] = row.story_id
         if row.quote_in_para == 1:
             if 'feature_said_coref' in column_names and row.feature_said_coref:
-                JSON_DICT['speaker'] = row.feature_said_coref
+                JSON_DICT['speaker'] = list(set(row.feature_said_coref))
             elif 'feature_vbd_coref' in column_names and row.feature_vbd_coref:
-                JSON_DICT['speaker'] = row.feature_vbd_coref
+                JSON_DICT['speaker'] = list(set(row.feature_vbd_coref))
             elif 'feature_coref_vbd' in column_names and row.feature_coref_vbd:
-                JSON_DICT['speaker'] = row.feature_coref_vbd
+                JSON_DICT['speaker'] = list(set(row.feature_coref_vbd))
             elif 'feature_coref_only' in column_names and row.feature_coref_only:
-                JSON_DICT['speaker'] = row.feature_coref_only
+                JSON_DICT['speaker'] = list(set(row.feature_coref_only))
             elif 'feature_said_coref_back' in column_names and row.feature_said_coref_back:
-                JSON_DICT['speaker'] = row.feature_said_coref_back
+                JSON_DICT['speaker'] = list(set(row.feature_said_coref_back))
             elif 'feature_coref_only_back' in column_names and row.feature_coref_only_back:
-                JSON_DICT['speaker'] = row.feature_coref_only_back
+                JSON_DICT['speaker'] = list(set(row.feature_coref_only_back))
             elif 'feature_coref_vbd_back' in column_names and row.feature_coref_vbd_back:
-                JSON_DICT['speaker'] = row.feature_coref_vbd_back
+                JSON_DICT['speaker'] = list(set(row.feature_coref_vbd_back))
             elif 'feature_vbd_coref_back' in column_names and row.feature_vbd_coref_back:
-                JSON_DICT['speaker'] = row.feature_coref_vbd_back
+                JSON_DICT['speaker'] = list(set(row.feature_coref_vbd_back))
             elif 'feature_nnp_nnp' in column_names and row.feature_nnp_nnp:
-                JSON_DICT['speaker'] = row.feature_nnp_nnp
+                JSON_DICT['speaker'] = list(set(row.feature_nnp_nnp))
+            elif 'feature_nnp_nns' in column_names and row.feature_nnp_nns:
+                JSON_DICT['speaker'] = list(set(row.feature_nnp_nns))
+            elif 'feature_nns_nnp' in column_names and row.feature_nns_nnp:
+                JSON_DICT['speaker'] = list(set(row.feature_nns_nnp))
             elif 'feature_nnp_nnp_back' in column_names and row.feature_nnp_nnp_back:
-                JSON_DICT['speaker'] = row.feature_nnp_nnp_back
+                JSON_DICT['speaker'] = list(set(row.feature_nnp_nnp_back))
+            elif 'feature_nnp_nns_back' in column_names and row.feature_nnp_nns_back:
+                JSON_DICT['speaker'] = list(set(row.feature_nnp_nns_back))
+            elif 'feature_nns_nnp_back' in column_names and row.feature_nns_nnp_back:
+                JSON_DICT['speaker'] = list(set(row.feature_nns_nnp_back))
+            elif 'feature_said_coref_ahead' in column_names and row.feature_said_coref_ahead:
+                JSON_DICT['speaker'] = list(set(row.feature_said_coref_ahead))
+            elif 'feature_vbd_coref_ahead' in column_names and row.feature_vbd_coref_ahead:
+                JSON_DICT['speaker'] = list(set(row.feature_vbd_coref_ahead))
+            elif 'feature_coref_vbd_ahead' in column_names and row.feature_coref_vbd_ahead:
+                JSON_DICT['speaker'] = list(set(row.feature_coref_vbd_ahead))
+            elif 'feature_coref_only_ahead' in column_names and row.feature_coref_only_ahead:
+                JSON_DICT['speaker'] = list(set(row.feature_coref_only_ahead))
+            elif 'feature_nnp_nnp_ahead' in column_names and row.feature_nnp_nnp_ahead:
+                JSON_DICT['speaker'] = list(set(str(row.feature_nnp_nnp_ahead)))
+            elif 'feature_nnp_nns_ahead' in column_names and row.feature_nnp_nns_ahead:
+                JSON_DICT['speaker'] = list(set(str(row.feature_nnp_nnp_ahead)))
+            elif 'feature_nns_nnp_ahead' in column_names and row.feature_nns_nnp_ahead:
+                JSON_DICT['speaker'] = list(set(str(row.feature_nnp_nnp_ahead)))
             else:
                 JSON_DICT['speaker'] = ['Robert J. Glushko']
         elif row.quote_in_para == 0:
             JSON_DICT['speaker'] = None
         JSON_LIST.append(JSON_DICT)
     return JSON_LIST
+
 
 
 if __name__ == '__main__':

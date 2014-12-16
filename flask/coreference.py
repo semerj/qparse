@@ -1,5 +1,6 @@
 import hashlib
 import pandas as pd
+import re
 
 def resolve(raw_paras, guesses, parsed):
     """
@@ -187,8 +188,9 @@ def resolve(raw_paras, guesses, parsed):
                 # splice the coref tag into the sentence
                 end = corefs_ends[i][loc]
                 name = corefs_text[i][loc]
+                coref_orig_text = ' '.join([w[0] for w in paras[i][1][loc:end]])
                 new_sent = paras[i][1][:loc]
-                new_sent += [(name, "COREF")]
+                new_sent += [(coref_orig_text + '__' + name, "COREF")]
                 new_sent += paras[i][1][end:]
                 # make sure it's stored in the original paras list
                 paras[i][1] = new_sent
@@ -196,6 +198,8 @@ def resolve(raw_paras, guesses, parsed):
     # generate unique story id
     sent_1 = ' '.join([t[0] for t in paras[0][1]])
     story_id = hashlib.sha224(sent_1).hexdigest()[:7]
+    import re
+    story_id = re.sub("[^0-9]", "9", story_id)
 
     # add to final data structure
     for key, row in enumerate(paras):

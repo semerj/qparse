@@ -117,7 +117,17 @@ def org(id):
 def random():
     p = coll.Paragraph.find_random()
     story_id = p['story_id']
-    article = coll.Paragraph.find({"story_id": story_id})
+    paras = coll.Paragraph.find({'story_id': story_id}).sort('para_index')
+    article = []
+    # splice in span tags
+    for p in paras:
+        p['paragraph'] = p['paragraph'].replace("``", '<span class="quote">'+"``")
+        p['paragraph'] = p['paragraph'].replace("''", "''"+'</span>')
+        if p['speaker']:
+            for speaker in p['speaker']:
+                tagged_speaker = '<span class="speaker">' + speaker + "</span>"
+                p['paragraph'] = p['paragraph'].replace(speaker, tagged_speaker)
+        article.append(p)
     return render_template('article.html', article=article)
 
 @app.route('/parse', methods=["GET", "POST"])
@@ -169,9 +179,20 @@ def parse():
         for p in JSON_DATA:
             store = coll.Paragraph(p)
             store.save()
-        story = coll.Paragraph.find({'story_id': JSON_DATA[0]['story_id']}).sort('para_index')
+        paras = coll.Paragraph.find({'story_id': JSON_DATA[0]['story_id']}).sort('para_index')
+        article = []
+        # splice in span tags
+        for p in paras:
+            p['paragraph'] = p['paragraph'].replace("``", '<span class="quote">'+"``")
+            p['paragraph'] = p['paragraph'].replace("''", "''"+'</span>')
+            if p['speaker']:
+                for speaker in p['speaker']:
+                    tagged_speaker = '<span class="speaker">' + speaker + "</span>"
+                    p['paragraph'] = p['paragraph'].replace(speaker, tagged_speaker)
+            article.append(p)
+
         #display the results
-        return render_template('article.html', article=story)
+        return render_template('article.html', article=article)
 
 if __name__ == '__main__':
     app.run(debug=True)
