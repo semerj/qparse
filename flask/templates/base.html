@@ -59,6 +59,9 @@
                 <li class="{% block eval_active %}{% endblock %}">
                     <a href="{{ url_for('eval') }}">Evaluate the results</a>
                 </li>
+                <li class="{% block acc_active %}{% endblock %}">
+                    <a href="{{ url_for('accuracy') }}">Accuracy report</a>
+                </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->

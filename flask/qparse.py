@@ -1,3 +1,4 @@
+from __future__ import division
 import json
 import os
 import pickle
@@ -158,6 +159,44 @@ def eval():
                 p['paragraph'] = p['paragraph'].replace(speaker, tagged_speaker)
         article.append(p)
     return render_template('eval.html', article=article)
+
+@app.route('/accuracy')
+def accuracy():
+    para_class = {
+        "total": coll.Paragraph.find({"paraClass": {"$ne": None}}).count(),
+        "correct": {
+            "raw": coll.Paragraph.find({"paraClass": "correct"}).count()
+        },
+        "typeI": {
+            "raw": coll.Paragraph.find({"paraClass": "type I"}).count()
+        },
+        "typeII": {
+            "raw": coll.Paragraph.find({"paraClass": "type II"}).count()
+        }
+    }
+
+    para_class["correct"]['pct'] = 100 *(para_class["correct"]["raw"] / para_class["total"])
+    para_class["typeI"]['pct'] = 100 *(para_class["typeI"]["raw"] / para_class["total"])
+    para_class["typeII"]['pct'] = 100 *(para_class["typeII"]["raw"] / para_class["total"])
+
+    speaker_id = {
+        "total": coll.Paragraph.find({"speakerID": {"$ne": None}}).count(),
+        "correct": {
+            "raw": coll.Paragraph.find({"speakerID": "correct"}).count()
+        },
+        "incorrect": {
+            "raw": coll.Paragraph.find({"speakerID": "incorrect"}).count()
+        },
+    }
+
+    speaker_id["correct"]['pct'] = 100 *(speaker_id["correct"]["raw"] / speaker_id["total"])
+    speaker_id["incorrect"]['pct'] = 100 *(speaker_id["incorrect"]["raw"] / speaker_id["total"])
+
+    articles_count = len(coll.Paragraph.find({"paraClass": {"$ne": None}})
+                            .distinct("story_id"))
+
+    return render_template("accuracy.html",
+        para_class=para_class, speaker_id=speaker_id, articles_count = articles_count)
 
 @app.route('/parse', methods=["GET", "POST"])
 def parse():

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}
+    QParse: Accuracy metrics report
+{% endblock %}
+
+{% block about_active %}{% endblock %}
+{% block acc_active %}active{% endblock %}
+
+{% block content %}
+<div class='col-md-12'>
+    <div class="page-header">
+        <h1>Accuracy metrics report</h1>
+    </div>
+
+    <h2>Articles evaluated: {{ articles_count }}</h2>
+
+    <hr/>
+    <h2>Paragraph classifier <br/>
+    <small>Classifies paragraphs with quotations in them</small>
+    </h2>
+    <p class="lead">Correct:
+        <strong>{{para_class.correct.pct | round(2)}}%</strong>
+        ({{ para_class.correct.raw }} / {{ para_class.total }})
+    </p>
+    <p class="lead">Type I errors:
+        <strong>{{para_class.typeI.pct | round(2)}}%</strong>
+        ({{ para_class.typeI.raw }} / {{ para_class.total }})
+    </p>
+    <p class="lead">Type II errors:
+        <strong>{{para_class.typeII.pct | round(2)}}%</strong>
+        ({{ para_class.typeII.raw }} / {{ para_class.total }})
+    </p>
+
+    <hr/>
+
+    <h2>Speaker identification <br/>
+    <small>Extracts name of speaker from classified paragraphs</small>
+    </h2>
+    <p class="lead">Correct:
+        <strong>{{speaker_id.correct.pct | round(2)}}%</strong>
+        ({{ speaker_id.correct.raw }} / {{ speaker_id.total }})
+    </p>
+    <p class="lead">Incorrect:
+        <strong>{{speaker_id.incorrect.pct | round(2)}}%</strong> 
+        ({{ speaker_id.incorrect.raw }} / {{ speaker_id.total }})
+    </p>
+
+</div>
+{% endblock %}
+
+{% block foot %}
+{% endblock %}
