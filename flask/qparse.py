@@ -34,7 +34,9 @@ class Paragraph(Document):
         'paragraph': unicode,
         'speaker': list,
         'quote_in_para': int,
-        'quotations': list
+        'quotations': list,
+        'paraClass': unicode,
+        'speakerID': unicode
     }
 
 @app.route('/')
@@ -129,6 +131,33 @@ def random():
                 p['paragraph'] = p['paragraph'].replace(speaker, tagged_speaker)
         article.append(p)
     return render_template('article.html', article=article)
+
+@app.route('/eval', methods=["GET", "POST"])
+def eval():
+    if request.method == "POST":
+        for form_id in request.form:
+            if '__' in form_id:
+                metric, para_id = form_id.split('__')
+                val = request.form[form_id]
+                para = coll.Paragraph.find_one({"_id": ObjectId(para_id)})
+                para[metric] = val
+                para.save()
+
+
+    p = coll.Paragraph.find_random()
+    story_id = p['story_id']
+    paras = coll.Paragraph.find({'story_id': story_id}).sort('para_index')
+    article = []
+    # splice in span tags
+    for p in paras:
+        p['paragraph'] = p['paragraph'].replace("``", '<span class="quote">'+"``")
+        p['paragraph'] = p['paragraph'].replace("''", "''"+'</span>')
+        if p['speaker']:
+            for speaker in p['speaker']:
+                tagged_speaker = '<span class="speaker">' + speaker + "</span>"
+                p['paragraph'] = p['paragraph'].replace(speaker, tagged_speaker)
+        article.append(p)
+    return render_template('eval.html', article=article)
 
 @app.route('/parse', methods=["GET", "POST"])
 def parse():

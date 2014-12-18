@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title %}
+QParse: {{ article[0].story_id }}
+{% endblock %}
+
+{% block style %}
+<style media="screen">
+.quote {
+    color: #1d13cc;
+}
+.speaker{
+    color: #bf22d0;
+}
+.position {
+    color: #03c310;
+}
+.organization {
+    color: #e60447;
+}
+</style>
+{% endblock %}
+
+{% block about_active %}{% endblock %}
+{% block eval_active %}active{% endblock %}
+
+{% block content %}
+<h1>{{ article[0].story_id }}</h1>
+<div class="row">
+    <div class="col-md-7">
+        <h2>Article</h2>
+    </div>
+    <div class="col-md-5">
+        <h2>Quotes</h2>
+    </div>
+</div>
+
+<form id="eval" method="post">
+{% for para in article %}
+<div class="row">
+    <div class="col-md-7">
+        <p>
+            {{ para.paragraph | safe }}
+        </p>
+        <fieldset>
+            <div class="form-group">
+                <legend>Evaluate the paragraph classifier</legend>
+
+                <label class="radio-inline">
+                    <input type="radio" name="paraClass__{{para._id}}" value="correct" checked>
+                    Correct
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="paraClass__{{para._id}}" value="type I">
+                    Type I error
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="paraClass__{{para._id}}" value="type II">
+                    Type II error
+                </label>
+            </div>
+            {% if para.quote_in_para %}
+            <div class="form-group">
+                <legend>Evaluate the speaker identification</legend>
+                <label class="radio-inline">
+                    <input type="radio" name="speakerID__{{para._id}}" value="correct">
+                    Correct
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="speakerID__{{para._id}}" value="incorrect">
+                    Incorrect
+                </label>
+            </div>
+            {% endif %}
+        </fieldset>
+    </div>
+    <div class="col-md-5">
+        {% if para.quote_in_para %}
+        <dl class="dl-horizontal">
+            <dt>quote</dt>
+            <dd><span class="quote">{{ para.quotations }}</span></dd>
+            <dt>speaker</dt>
+            <dd><span class="speaker">{{ para.speaker }}</span></dd>
+            <dt>position</dt>
+            <dd><span class="position">{{ para.position }}</span></dd>
+
+        </ul>
+        {% else %}
+        <p>
+            None
+        </p>
+        {% endif %}
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+</div>
+
+{% endfor %}
+    <button name="submit" type="submit">Submit evaluation</button>
+</form>
+
+{% endblock %}
